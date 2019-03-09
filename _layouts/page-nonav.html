@@ -1,4 +1,11 @@
-<!-- Navigation -->
+<!DOCTYPE html>
+<html class="sticky-footer">
+
+  {% include head.html %}
+
+  <body id="page-top" class="index no-header sticky-footer">
+   
+   <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,26 +16,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="{{site.url}}{{site.baseurl}}">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">{{site.data[site.language].whatWeDo}}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">{{site.data[site.language].events}}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">{{site.data[site.language].team}}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="resbaz/resbazTucson2019">ResBaz Tucson 2019</a>
+                        <a href="{{site.url}}{{site.baseurl}}"></a>
                     </li>
                 </ul>
             </div>
@@ -42,8 +37,23 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">{{ site.headlineSmall }}</div>
-                <div class="intro-heading">{{ site.headlineMain }}</div>
-                <a href="https://www.meetup.com/ResBazAZ/" class="page-scroll btn btn-xl">{{site.data[site.language].tellMeMore}}</a>
+                <div class="intro-heading">{{ site.headlineMain }}</div>              
             </div>
         </div>
     </header>
+
+   
+   
+    <div class="content container">
+      <div class="page">
+        <h1 class="page-title">{{ page.title }}</h1>
+
+        <hr>
+
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>
