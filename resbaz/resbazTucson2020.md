@@ -20,7 +20,12 @@ May 19-21, 2020
 
 ## Schedule
 
-Coming later this spring!
+<div class="schedule2020">
+  <script type="text/javascript" src="../../js/schedule/lib/d3.min.js"></script>
+  <script type="text/javascript" src="../../js/schedule/lib/less.min.js" data-log-level="1"></script>
+  <link rel="stylesheet/less" type="text/css" href="../../js/schedule/style.less"/>
+  <script type="module" src="../../js/schedule/schedule2020.js"></script>
+</div>
 
 ## Where
 
@@ -31,8 +36,8 @@ University of Arizona
 
 <a href="#" class="button" target="_blank">Coming later this spring!</a>
 
-  
-  
+
+
 <br><br><br>
 **Last year:**
 <a href="/resbaz/resbazTucson2019">ResBaz Tucson 2019</a>
