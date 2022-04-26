@@ -15,21 +15,26 @@ Who should attend? Researchers at ALL levels from ALL disciplines. PhD and resea
 
 May 23&ndash;26, 2022
 
-## Schedule
+## Tentative Schedule
 
-Coming soon
+(This spreadsheet will eventually be replaced with an interactive calendar, with links to the HackMD documents and Zoom rooms for each session)
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtqfEpBb1m0xHr9urmr8tpFl8w7JQAxMoGG5CJ5y4B8-mrqT2vuU2_YJ25ismWQpdm_H74aYcjmZkQ/pubhtml?widget=true&amp;headers=false" width="1200" height="510"></iframe>
 
 ## Where
 
-Hybrid online / in person; specific location TBD
+Hybrid online, and an in-person Hacky Hour Event
 
 ## Register
 
-Registration link coming soon
+Link to registration form coming soon
 
 ## Our Sponsors
 
-<a href="https://new.library.arizona.edu/"><img src="/img/logos/ua_libraries.png" alt="University of Arizona Libraries" height="65"></a>&emsp;&emsp;&emsp;&emsp;<a href="https://it.arizona.edu/research"><img src="/img/logos/ua_uits_researchcomp.png" alt="UITS Research Computing" height="65"></a>
+<div style="display: flex; width: 100%; justify-content: space-around">
+  <a href="https://datascience.cals.arizona.edu/"><img src="https://datascience.cals.arizona.edu/sites/datascience.cals.arizona.edu/files/CCT%20logo-primary%402x.png" alt="University of Arizona Communications &amp; Cyber Technologies" height="65"></a>
+  <a href="https://datascience.arizona.edu/"><img src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29_0.svg" alt="University of Arizona Data Science Institute" height="65"></a>
+</div>
 
 <br><br><br>
 **Previous years:**<br/>
