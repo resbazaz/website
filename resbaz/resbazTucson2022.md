@@ -19,7 +19,7 @@ May 23&ndash;26, 2022
 
 (This spreadsheet will be replaced with an interactive calendar prior to the event, with links to the HackMD documents for each session)
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtqfEpBb1m0xHr9urmr8tpFl8w7JQAxMoGG5CJ5y4B8-mrqT2vuU2_YJ25ismWQpdm_H74aYcjmZkQ/pubhtml?widget=true&amp;headers=false" width="1200" height="510"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtqfEpBb1m0xHr9urmr8tpFl8w7JQAxMoGG5CJ5y4B8-mrqT2vuU2_YJ25ismWQpdm_H74aYcjmZkQ/pubhtml?widget=true&amp;headers=false" width="1200" height="490"></iframe>
 
 ## Where
 
