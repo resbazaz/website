@@ -17,17 +17,28 @@ May 23&ndash;26, 2022
 
 ## Tentative Schedule
 
-(This spreadsheet will eventually be replaced with an interactive calendar, with links to the HackMD documents and Zoom rooms for each session)
+(This spreadsheet will be replaced with an interactive calendar prior to the event, with links to the HackMD documents for each session)
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtqfEpBb1m0xHr9urmr8tpFl8w7JQAxMoGG5CJ5y4B8-mrqT2vuU2_YJ25ismWQpdm_H74aYcjmZkQ/pubhtml?widget=true&amp;headers=false" width="1200" height="510"></iframe>
 
 ## Where
 
-Hybrid online, and an in-person Hacky Hour Event
+Online, with an in-person Hacky Hour Event.
 
-## Register
+Zoom links and passwords for all the sessions will be sent to the email address you provide on the registration form.
 
-Link to registration form coming soon
+<a href="https://docs.google.com/forms/d/1jOJsQiyddihbPyitRVteDthk_sp-PUleGhlMYWTg64U/edit" class="btn btn2022" target="_blank">Register</a>
+
+<style>
+  .btn2022 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #EA5A2A;
+    color: white;
+  }
+</style>
 
 ## Our Sponsors
 
