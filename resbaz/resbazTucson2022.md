@@ -27,10 +27,6 @@ Zoom links and passwords for all the sessions will be sent to the email address 
 
 <a href="https://forms.gle/PToMz4TvfsVRUnVT9" class="btn btn2022" target="_blank">Register</a>
 
-<a href="https://www.meetup.com/ResBazAZ/" class="btn btn2022" target="_blank">Join us on Meetup</a>
-
-</div>
-
 <style>
   .btn2022 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -40,16 +36,17 @@ Zoom links and passwords for all the sessions will be sent to the email address 
     background-color: #EA5A2A;
     color: white;
   }
-  .spread a {
-    display: inline-block;
-    margin-left: 1em;
+  .spread {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
   }
 </style>
 
 ## Our Sponsors
 
 <div class="spread">
-  <a href="https://datascience.cals.arizona.edu/"><img src="https://datascience.cals.arizona.edu/sites/datascience.cals.arizona.edu/files/CCT%20logo-primary%402x.png" alt="University of Arizona Communications &amp; Cyber Technologies" height="65"></a>
+  <a href="https://datascience.cals.arizona.edu/"><img src="/img/logos/cctLogo.png" alt="University of Arizona Communications &amp; Cyber Technologies" height="65"></a>
   <a href="https://datascience.arizona.edu/"><img src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29_0.svg" alt="University of Arizona Data Science Institute" height="65"></a>
   <a href="https://new.library.arizona.edu/"><img src="/img/logos/ua_libraries.png" alt="University of Arizona Libraries" height="65"></a>
 </div>
