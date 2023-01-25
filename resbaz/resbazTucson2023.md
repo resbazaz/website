@@ -1,6 +1,6 @@
 ---
 layout: page-nonav
-title: 'ResBaz Tucson May 23-26, 2023'
+title: 'ResBaz Tucson 2023'
 ---
 
 <style>
