@@ -42,7 +42,7 @@ April 17th-19th 2023
 
 ## Schedule
 
-TBD
+TBD <br/>
 See a draft schedule here:
 <a href="http://resbaz.arizona.edu/festival2023/index.html">Draft Schedule</a><br/>
 
@@ -57,10 +57,10 @@ See a draft schedule here:
 Hybrid event - join us on zoom (link TBD) or in person in one of our three locations!
 
 **UA/Tucson**
-In-Person meeting: University of Arizona Libraries, rooms 252 & 253
+In-Person meeting: University of Arizona Libraries CATalyst Studio, rooms 252 & 253
 
 **ASU/Phoenix**
-TBD, register here: http://researchacademy.asu.edu/events/2023-04-17/res
+TBD, register here: <a href="http://researchacademy.asu.edu/events/2023-04-17/res" >ResBaz@ASU</a><br/>
 
 **NAU/Flagstaff**
 TBD
@@ -83,7 +83,7 @@ Zoom links and passwords for all the sessions will be sent to the email address 
 
 <br><br><br>
 **Previous years:**<br/>
-<a href="/resbaz/resbazTucson2022">ResBaz Tucson 2022</a><br/>
+<a href="/resbaz/resbazTucson2022">ResBaz AZ 2022</a><br/>
 <a href="/resbaz/resbazTucson2021">ResBaz Tucson 2021</a><br/>
 <a href="/resbaz/resbazTucson2020">ResBaz Tucson 2020</a><br/>
 <a href="/resbaz/resbazTucson2019">ResBaz Tucson 2019</a>
