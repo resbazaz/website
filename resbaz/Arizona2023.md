@@ -54,7 +54,7 @@ See a draft schedule here:
 
 ## Where
 
-Hybrid event - join us on zoom (link TBD) or in person in one of our three locations!
+ResBaz Arizona 2023 will be a hybrid event; join us on zoom (link TBD) or in person in one of our three locations!
 
 **UArizona / Tucson**
 In-Person meeting: University of Arizona Libraries CATalyst Studio, rooms 252 & 254
@@ -65,6 +65,8 @@ register here: <a href="http://researchacademy.asu.edu/events/2023-04-17/res" >R
 
 **NAU/Flagstaff**
 TBD
+
+Due to its hybrid nature, we will not be recording sessions this year. If you can't make it to a specific session, you can still get help (as well as help others!) at any of our [regular in-person events](https://researchbazaar.arizona.edu/#portfolio)
 
 <a href="https://forms.gle/V8DzzDXpoqZi2hay7" class="btn btn2023" target="_blank">Register</a>
 
