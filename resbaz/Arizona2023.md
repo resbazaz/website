@@ -42,15 +42,9 @@ April 17th-19th 2023
 
 ## Schedule
 
-TBD
-See a draft schedule here:
-<a href="http://resbaz.arizona.edu/festival2023/index.html">Draft Schedule</a><br/>
-
-<!--
 <div class="calendar">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtqfEpBb1m0xHr9urmr8tpFl8w7JQAxMoGG5CJ5y4B8-mrqT2vuU2_YJ25ismWQpdm_H74aYcjmZkQ/pubhtml?widget=true&amp;headers=false" width="1245" height="500"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1S3giNZ9_mMvxa6buBX3-fdKyiith9AiDe4dJ0HB0O9A/pubhtml?widget=true&amp;headers=false" width="970" height="860"></iframe>
 </div>
--->
 
 ## Where
 
