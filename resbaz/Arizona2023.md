@@ -52,13 +52,13 @@ Who should attend? Researchers at ALL levels from ALL disciplines. PhD and resea
 
 ## Where to participate
 
-ResBaz Arizona 2023 will be a hybrid event; join us in person in one ouf our three locations or online (click below for details):
+ResBaz Arizona 2023 will be a hybrid event; join us in person in one of our three locations or online (click below for details):
 
 <ul class="nav nav-pills" role="tablist">
   <li data-tabId="tucson"><a href="#tucson">Tucson</a></li>
   <li data-tabId="phoenix"><a href="#phoenix">Phoenix</a></li>
   <li data-tabId="flagstaff"><a href="#flagstaff">Flagstaff</a></li>
-  <li data-tabId="online"><a href="#online">Online</a></li>
+  <li data-tabId="online"><a href="#online">Online via Zoom</a></li>
 </ul>
 
 <div id="tucson">
