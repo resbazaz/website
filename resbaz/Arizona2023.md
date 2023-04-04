@@ -118,16 +118,11 @@ An in-person Hacky Hour event will be held near the ASU campus at (**_TODO!_**).
 <div class="spread">
 <div class="map" markdown="1">
 
-#### April 17 and 18: Speaker Sessions and Workshops
+#### Speaker Sessions and Workshops
 
-In-person NAU sessions will be held in (**_TODO!_**). For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
+In-person NAU sessions will be held in the Du Bois South Union in the Juniper room. For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
 
-</div>
-<div class="map" markdown="1">
-
-#### April 19: Speaker Sessions and Workshops
-
-In-person NAU sessions will be held in (**_TODO!_**). For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815.2849209954137!2d-111.65627917074973!3d35.17807089876967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d8fa73be38e5f%3A0x422c041f71a0b9ce!2sDu%20Bois%20Center%20%E2%80%94%20NAU!5e0!3m2!1sen!2sus!4v1680570261652!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 <div class="map" markdown="1">
