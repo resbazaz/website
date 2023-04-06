@@ -28,7 +28,8 @@ title: 'ResBaz Arizona 2023'
     flex-wrap: wrap;
   }
 
-  .map {
+  .map,
+  .sponsor-chunk {
     max-width: 27em;
     margin: 1em;
   }
@@ -174,12 +175,28 @@ Zoom links and passwords for all the sessions will be sent to the email address 
 
 ## Our Sponsors
 
+<div class="spread">
+
+<div class="sponsor-chunk" markdown="1">
 The University of Arizona
 
 - [Institute for Computation and Data-Enabled Insight](https://datainsight.arizona.edu)
 - [Data Science Institute](https://datascience.arizona.edu/)
 - [Data Cooperative (University Libraries\)](https://new.library.arizona.edu/)
-- [College of Science](https://science.arizona.edu/).
+- [College of Science](https://science.arizona.edu/)
+
+</div>
+
+<div class="sponsor-chunk" markdown="1">
+
+Northern Arizona University
+
+- [Informatics Graduate Student Association](https://igsa-siccs.github.io/)
+- [T3 Ecological Environmental Informatics](https://ecoinfo.nau.edu/)
+
+</div>
+
+</div>
 
 ## Previous years
 
