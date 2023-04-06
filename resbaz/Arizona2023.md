@@ -74,7 +74,7 @@ Both concurrent schedules will be held and/or streamed at the University of Ariz
 </div>
 <div class="map" markdown="1">
 
-#### April 19: Hacky Hour Event
+#### April 20: Hacky Hour Event
 
 An in-person Hacky Hour event will be held at Snakes & Lattes Tucson.
 
@@ -106,7 +106,7 @@ In-person ASU sessions will be held in the ASU Engineering Research Center in ro
 </div>
 <div class="map" markdown="1">
 
-#### April 19: Hacky Hour Event
+#### April 20: Hacky Hour Event
 
 An in-person Hacky Hour event will be held near the ASU campus at (**_TODO!_**).
 
@@ -127,7 +127,7 @@ In-person NAU sessions will be held in the Du Bois South Union in the Juniper ro
 </div>
 <div class="map" markdown="1">
 
-#### April 19: Hacky Hour Event
+#### April 20: Hacky Hour Event
 
 An in-person Hacky Hour event will be held near the NAU campus at (**_TODO!_**).
 
