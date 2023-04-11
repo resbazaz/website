@@ -165,13 +165,9 @@ Due to its hybrid nature, we will not be recording sessions this year. If you ca
   window.addEventListener('hashchange', updateAllTabs);
 </script>
 
-<!--
-Online, with an in-person Hacky Hour Event.
+#### Accessibility
 
-Zoom links and passwords for all the sessions will be sent to the email address you provide on the registration form.
-
-<a href="https://forms.gle/PToMz4TvfsVRUnVT9" class="btn btn2022" target="_blank">Register</a>
--->
+We are committed to making this workshop accessible to everybody. For workshops at each physical location, the workshop organizers have checked rooms are wheelchair / scooter accessiblem, and that accessible restrooms are available.
 
 ## Our Sponsors
 
