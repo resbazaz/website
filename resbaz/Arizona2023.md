@@ -129,8 +129,9 @@ In-person NAU sessions will be held in the Du Bois South Union in the Juniper ro
 
 #### April 20: Hacky Hour Event
 
-An in-person Hacky Hour event will be held near the NAU campus at:  
-Mother Road Brewing Company, 7 S Mikes Pike St.
+An in-person Hacky Hour event will be held near the NAU campus at Mother Road Brewing Company.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.385204552061!2d-111.65464178540064!3d35.19687286399135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d8f436e85aaff%3A0xd9b717a4b5124fda!2sMother%20Road%20Brewing%20Company!5e0!3m2!1sen!2sus!4v1681228808976!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 </div>
