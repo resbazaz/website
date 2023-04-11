@@ -168,7 +168,11 @@ Due to its hybrid nature, we will not be recording sessions this year. If you ca
 
 #### Accessibility
 
-We are committed to making this workshop accessible to everybody. For workshops at each physical location, the workshop organizers have checked rooms are wheelchair / scooter accessiblem, and that accessible restrooms are available.
+We are committed to making this workshop accessible to everybody. For workshops at a physical location, the workshop organizers have checked that:
+
+- The room is wheelchair / scooter accessible.
+
+- Accessible restrooms are available.
 
 ## Our Sponsors
 
