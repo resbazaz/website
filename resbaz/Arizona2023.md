@@ -108,7 +108,9 @@ In-person ASU sessions will be held in the ASU Engineering Research Center in ro
 
 #### April 20: Hacky Hour Event
 
-An in-person Hacky Hour event will be held near the ASU campus at (**_TODO!_**).
+An in-person Hacky Hour event will be held near the ASU campus at Snakes and Lattes Tempe.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13319.80159786562!2d-111.95125326977828!3d33.42453747616568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b098c08adabdb%3A0xfcb46b7965db4934!2sSnakes%20%26%20Lattes%20Tempe!5e0!3m2!1sen!2sus!4v1681396479787!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 </div>
@@ -131,7 +133,7 @@ In-person NAU sessions will be held in the Du Bois South Union in the Juniper ro
 
 An in-person Hacky Hour event will be held near the NAU campus at Mother Road Brewing Company.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.385204552061!2d-111.65464178540064!3d35.19687286399135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d8f436e85aaff%3A0xd9b717a4b5124fda!2sMother%20Road%20Brewing%20Company!5e0!3m2!1sen!2sus!4v1681228808976!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13041.541588553242!2d-111.662731368837!3d35.19686806577202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d8f436e85aaff%3A0xd9b717a4b5124fda!2sMother%20Road%20Brewing%20Company!5e0!3m2!1sen!2sus!4v1681396410927!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 </div>
