@@ -13,6 +13,12 @@ title: 'ResBaz Arizona 2023'
     width: 100%;
     overflow: auto;
   }
+  .calendar iframe {
+    border-top: 1px solid #d9d9d9;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
   .btn2023 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
@@ -59,8 +65,8 @@ In light of the collaborative nature of ResBaz AZ, we encourage everyone to use 
 
 ## Schedule
 
-<div class="calendar">
-<iframe src="https://docs.google.com/spreadsheets/d/1S3giNZ9_mMvxa6buBX3-fdKyiith9AiDe4dJ0HB0O9A/pubhtml?widget=true&amp;headers=false" width="970" height="860"></iframe>
+<div class="calendar spread">
+<iframe src="https://docs.google.com/spreadsheets/d/1S3giNZ9_mMvxa6buBX3-fdKyiith9AiDe4dJ0HB0O9A/pubhtml?widget=false&amp;chrome=false&amp;headers=false" width="1164" height="885"></iframe>
 </div>
 
 <div id="locations"></div>
