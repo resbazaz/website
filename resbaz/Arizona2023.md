@@ -13,6 +13,12 @@ title: 'ResBaz Arizona 2023'
     width: 100%;
     overflow: auto;
   }
+  .calendar iframe {
+    border-top: 1px solid #d9d9d9;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
   .btn2023 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
@@ -45,11 +51,25 @@ Who should attend? Researchers at ALL levels from ALL disciplines. PhD and resea
   <a href="https://forms.gle/V8DzzDXpoqZi2hay7" class="btn btn2023" target="_blank">Register</a>
 </div>
 
+### How do I participate in ResBaz?
+
+This year, ResBaz AZ will be in a hybrid learning environment. We will be hosting the conference in-person in Flagstaff, Phoenix, and Tucson and livestream everything on zoom. You can [join your local in-person ResBaz](#locations) in its respective location at **any time during the conference** to meet your local community and hosts. When there are no live speakers at any given location, we will stream one (or both) of the zoom rooms, so physical attendees can participate together in a more collaborative way.
+
+### What can I do at ResBaz?
+
+First and foremost, most of the sessions at ResBaz will be hands-on. Whether you plan to attend online or in person, please have your computer ready to participate. **Make sure to install any programs you will need for the session beforehand.** Specific information per workshop can be found in its hackMD. Click any class in the schedule to reach hackMD.
+
+### How can I see more details about the workshops?
+
+In light of the collaborative nature of ResBaz AZ, we encourage everyone to use HackMD to communicate with Instructors and helpers, introduce themselves, take notes, and access the details of each workshop. We have set up a hackMD for each Track ([Track A](https://hackmd.io/RSqUhB37SJWtMVXNfZG1NQ?view), [Track B](https://hackmd.io/6rbeXjRATjW_I209qNaL1A?view)), or you can click on each session in the schedule.
+
 ## Schedule
 
-<div class="calendar">
-<iframe src="https://docs.google.com/spreadsheets/d/1S3giNZ9_mMvxa6buBX3-fdKyiith9AiDe4dJ0HB0O9A/pubhtml?widget=true&amp;headers=false" width="970" height="860"></iframe>
+<div class="calendar spread">
+<iframe src="https://docs.google.com/spreadsheets/d/1S3giNZ9_mMvxa6buBX3-fdKyiith9AiDe4dJ0HB0O9A/pubhtml?widget=false&amp;chrome=false&amp;headers=false" width="1164" height="885"></iframe>
 </div>
+
+<div id="locations"></div>
 
 ## Where to participate
 
@@ -69,6 +89,8 @@ ResBaz Arizona 2023 will be a hybrid event; join us in person in one of our thre
 #### Speaker Sessions and Workshops
 
 Both concurrent schedules will be held and/or streamed at the University of Arizona Libraries CATalyst Studio, in rooms 252 and 254.
+
+Water, coffee, and snacks will be available; bringing your own reusable cup is recommended!
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.873773184266!2d-110.95134160245216!3d32.23130913231547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d671e9a9ad91ef%3A0x1a5d5af0c75a8f8d!2sCATalyst%20Studios!5e0!3m2!1sen!2sus!4v1680567507289!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
