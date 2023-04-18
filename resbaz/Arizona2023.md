@@ -113,7 +113,7 @@ An in-person Hacky Hour event will be held at Snakes & Lattes Tucson.
 
 #### April 17 and 18: Speaker Sessions and Workshops
 
-In-person ASU sessions will be held in the Goldwater Center for Science and Engineering in room 487. For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
+In-person ASU sessions will be held in the Goldwater Center for Science and Engineering in room 546. For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.0940769416798!2d-111.93250088436436!3d33.42079158078251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08ddba2f5759%3A0xb05ca2f7403dcaf4!2sGoldwater%20Center%20for%20Science%20and%20Engineering%2C%20650%20E%20Tyler%20Mall%2C%20Tempe%2C%20AZ%2085281!5e0!3m2!1sen!2sus!4v1680568866980!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -122,7 +122,7 @@ In-person ASU sessions will be held in the Goldwater Center for Science and Engi
 
 #### April 19: Speaker Sessions and Workshops
 
-In-person ASU sessions will be held in the ASU Engineering Research Center in room 546. For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
+In-person ASU sessions will be held in the ASU Engineering Research Center in room 490. For sessions with two concurrent remote options, a vote will be taken at the beginning of each two-hour block for which track to stream in the room.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1665.0627229244194!2d-111.93243914176223!3d33.419973695195644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08ddacbdb81b%3A0x9149b41742d6e19d!2sASU%20Engineering%20Research%20Center!5e0!3m2!1sen!2sus!4v1680569400003!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
