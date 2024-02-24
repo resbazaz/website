@@ -1,0 +1,23 @@
+peopleFile = FileAttachment('data/people.json').json();
+
+function randomAvatars(teamName) {
+  const team = peopleFile.data.organization.teams.nodes.find(
+    (team) => team.name === teamName
+  );
+  const people = team.members.nodes
+    .map(({ id }) =>
+      peopleFile.data.organization.membersWithRole.nodes.find(
+        (person) => person.id === id
+      )
+    )
+    .sort(() => 2 * Math.random() - 1);
+  const container = d3.create('div')
+    .classed('randomAvatars', true);
+  container.selectAll('img')
+    .data(people)
+    .enter()
+      .append('img')
+      .attr('src', person => person.avatarUrl)
+      .attr('title', person => person.name);
+  return container.node();
+}

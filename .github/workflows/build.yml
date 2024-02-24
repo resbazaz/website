@@ -1,0 +1,75 @@
+name: Build and Deploy
+on: [push]
+# TODO: limit this flow to when we push to main
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update People Info 🙂 # This pulls the latest info about who is on which Github team
+        run: |
+          gh api graphql -f query='
+            query {
+              organization(login: "resbazaz") {
+                teams(first:100) {
+                  nodes {
+                    name
+                    members(first:100) {
+                      nodes {
+                        id
+                      }
+                    }
+                  }
+                }
+                membersWithRole(first:100) {
+                  nodes {
+                    id
+                    name
+                    login
+                    bio
+                    company
+                    avatarUrl
+                    socialAccounts(first:10) {
+                      edges {
+                        node {
+                          provider
+                          url
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ' > data/people.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORGANIZATION_READER }}
+
+      - name: Set up Quarto 🔧 # This compiles the site into the _site folder
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # TODO: add software dependencies here and any libraries
+
+      # From https://github.com/actions/setup-python
+      # - name: Setup Python
+      #   uses: actions/setup-python@v3
+
+      # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
+      # - name: Setup R
+      #   uses: r-lib/actions/setup-r@v2
+
+      # From https://github.com/julia-actions/setup-julia
+      # - name: Setup Julia
+      #   uses: julia-actions/setup-julia@v1
+
+      - name: Deploy to GitHub Pages 🚀 # This step commits the contents of the _site folder into the gh-pages branch (which GitHub serves as a website)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

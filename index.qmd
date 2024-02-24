@@ -1,0 +1,130 @@
+---
+title: "Research Bazaar Arizona"
+subtitle: "Community · Skills Sharing · Digital Literacy"
+page-layout: full
+css: styles/index.css
+execute:
+  echo: false
+title-block-banner: 'img/mainPageBackground.jpg'
+title-block-banner-color: white
+---
+
+```{ojs}
+import { randomAvatars } from './components/randomAvatars.ojs';
+```
+
+
+## What we do
+
+_Need help now? Want to talk? Go post in our Gitter: [resbaz/Arizona](https://gitter.im/resbaz/Arizona)_
+
+### Everyone is welcome
+
+We support an ample community of researchers from diverse areas and levels of expertise. Whether you are just starting to learn programming or you are already an expert, we have a place for you!
+
+### Collaboration
+
+Meeting and working with experts from different fields can bring a new and fresh perspective to your own work! Even more, re-inforce your skill and help train a new generation of developers by teaching others.
+
+### Community Building
+
+Meet new people in and outside of your field. Join our supportive network of data scientists and find out what we can do when we work together.
+
+## Events
+
+_Stay up to date on announcements at our Twitter: [@ResBazAZ](https://twitter.com/ResBazAZ)_
+
+_(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com/ResBazAZ/)_
+
+### Coffee and Code
+
+::::: {.split-section}
+
+![Coffee and Code](img/coffeeAndCode.png){.side-image .lightbox} \
+
+::: {.split-chunk}
+**Where**: [Catalyst Cafe at BSRL](https://union.arizona.edu/dining/dining-by-district/north/#Catalyst%20Caf%C3%A9) 1230 N Cherry Ave
+
+**When**: 8.30AM - 10.30AM, every Wednesday
+
+**What**: Whether you're debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries -- join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!
+
+**Who you're likely to see**:
+
+```{ojs}
+randomAvatars("Coffee and Code");
+```
+
+:::
+
+:::::
+
+### Hacky Hour
+
+::::: {.split-section}
+
+::: {.split-chunk}
+
+**Where**: [Snakes & Lattes](https://www.snakesandlattes.com/tucson) 988 E University Blvd
+
+**When**: 4PM - 7PM, every Thursday
+
+**What**: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!
+
+**Who you're likely to see**:
+
+```{ojs}
+randomAvatars("Hacky Hour");
+```
+
+:::
+
+![Hacky Hour](img/hackyHour.png){.side-image .lightbox} \
+
+:::::
+
+### Related Community Events
+
+#### Code Commons
+
+**What**: Code Commons provides a physical space for community and collaboration. Join us to share experience, learn, mentor, discover opportunities, and work on your programming projects in the presence of others doing the same.
+
+Code Commons also aims to provide the best aspects of workplace culture for people who are otherwise isolated from other developers. This includes (but isn’t limited to) people working on free, libre, open-source software (FLOSS), and software for public service missions.
+
+[More Info](https://codecommons.net/)
+
+#### Women in Data Science
+
+**What**: Women in Data Science (WiDS) Tucson is an independent event organized by the University of Arizona to coincide with the Global WiDS Conference held at Stanford University and an estimated 200+ locations worldwide annually.
+
+The Global WiDS Conference aims to inspire and educate data scientists worldwide, regardless of gender, and to support women in the field. This one-day technical conference provides an opportunity to hear about the latest data science related research and applications in a number of domains, and connect with others in the field.
+
+[More Info](https://widstucson.org/)
+
+#### Tucson Python Meetup
+
+**What**: The goal of this group is to encourage more mingling, learning, and sharing ideas within the Tucson Python community. Everybody is welcome, no matter what your level of Python experience. Activities include presentations and workshops on everything from how to use Python to control the lights in your home, to building web applications which can scale to millions of users.
+
+[More Info](https://www.meetup.com/Tucson-Python-Meetup/)
+
+#### UX@UA
+
+**What**: UX@UA is a learning community that aims to grow UX expertise at the University of Arizona. We provide a variety of resources including:
+
+- Professional development and networking
+- Low-barrier UX tools and techniques
+
+Their aims are for UX enthusiasts of all levels to:
+
+- Feel empowered and inspired 
+- Develop their skills and toolset
+- Connect with UXers in Tucson and beyond
+
+[More Info](https://uxua.arizona.edu/)
+
+## Previous ResBaz Festivals
+- [Arizona 2023 festival](resbaz/Arizona2023.html)
+- [Tucson 2022 festival](resbaz/resbazTucson2022.html)
+- [Tucson 2021 festival](resbaz/resbazTucson2021.html)
+- [Tucson 2020 festival](resbaz/resbazTucson2020.html)
+- [Tucson 2019 festival](resbaz/resbazTucson2019.html)
