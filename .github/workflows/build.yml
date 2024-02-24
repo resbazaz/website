@@ -70,6 +70,7 @@ jobs:
       #   uses: julia-actions/setup-julia@v1
 
       - name: Deploy to GitHub Pages 🚀 # This step commits the contents of the _site folder into the gh-pages branch (which GitHub serves as a website)
+        if: github.ref == 'refs/heads/main'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
