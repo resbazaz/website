@@ -59,4 +59,4 @@ Note: Due to the "unconference" nature of ResBaz, you can opt to teach a worksho
 
 <br><br><br>
 **Last year:**
-<a href="/resbaz/resbazTucson2019.html">ResBaz Tucson 2019</a>
+<a href="/resbaz/resbazTucson2019.qmd">ResBaz Tucson 2019</a>
