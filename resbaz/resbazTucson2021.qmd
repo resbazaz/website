@@ -56,5 +56,5 @@ Zoom links and passwords for all the sessions will be sent to the email address 
 
 <br><br><br>
 **Previous years:**<br/>
-<a href="/resbaz/resbazTucson2020.html">ResBaz Tucson 2020</a><br/>
-<a href="/resbaz/resbazTucson2019.html">ResBaz Tucson 2019</a>
+<a href="/resbaz/resbazTucson2020.qmd">ResBaz Tucson 2020</a><br/>
+<a href="/resbaz/resbazTucson2019.qmd">ResBaz Tucson 2019</a>
