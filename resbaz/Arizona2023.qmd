@@ -251,7 +251,7 @@ Northern Arizona University
 
 ## Previous years
 
-- [ResBaz Tucson 2022](/resbaz/resbazTucson2022.html)
-- [ResBaz Tucson 2021](/resbaz/resbazTucson2021.html)
-- [ResBaz Tucson 2020](/resbaz/resbazTucson2020.html)
-- [ResBaz Tucson 2019](/resbaz/resbazTucson2019.html)
+- [ResBaz Tucson 2022](/resbaz/resbazTucson2022.qmd)
+- [ResBaz Tucson 2021](/resbaz/resbazTucson2021.qmd)
+- [ResBaz Tucson 2020](/resbaz/resbazTucson2020.qmd)
+- [ResBaz Tucson 2019](/resbaz/resbazTucson2019.qmd)
