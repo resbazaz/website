@@ -1,0 +1,86 @@
+/*-- scss:defaults --*/
+
+// $theme: 'united' !default;
+
+//
+// Color system
+//
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #aea79f !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #333 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #772953 !default;
+$pink: #e83e8c !default;
+$red: #df382c !default;
+$orange: #ea5a2a !default;
+$yellow: #efb73e !default;
+$green: #38b44a !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$primary: $orange !default;
+$secondary: $gray-500 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-200 !default;
+$dark: $gray-900 !default;
+
+$min-contrast-ratio: 1.8 !default;
+
+// Body
+
+$body-color: $gray-800 !default;
+
+// Footer
+
+.footer {
+  text-align: center;
+}
+
+// Fonts
+
+$web-font-path: 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,800;1,400&family=Alegreya+SC:wght@500&display=swap' !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+$font-family-sans-serif: 'Raleway', 'Calibri', 'Trebuchet MS', sans-serif !default;
+$font-family-serif: 'Alegreya SC', 'Georgia', 'Times New Roman', 'Times', serif !default;
+
+// Navbar
+
+.navbar {
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-weight: 500;
+  }
+  .navbar-nav .nav-link.active .menu-text {
+    color: $white;
+  }
+}
+
+// Tables
+
+$table-dark-bg: $dark !default;
+$table-dark-border-color: darken($dark, 5%) !default;
+
+// Indicators
+
+.badge {
+  &.bg-light {
+    color: $body-color;
+  }
+}

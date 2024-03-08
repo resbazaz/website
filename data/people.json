@@ -1,0 +1,66 @@
+{
+  "data": {
+    "organization": {
+      "teams": {
+        "nodes": [
+          {
+            "name": "Hacky Hour",
+            "members": {
+              "nodes": [
+                { "id": "cat" },
+                { "id": "mouse" },
+                { "id": "squirrel" }
+              ]
+            }
+          },
+          {
+            "name": "Coffee and Code",
+            "members": {
+              "nodes": [{ "id": "dog" }, { "id": "cat" }]
+            }
+          }
+        ]
+      },
+      "membersWithRole": {
+        "nodes": [
+          {
+            "id": "dog",
+            "name": "Dog",
+            "login": "dog",
+            "bio": "The best dog ever",
+            "company": "Pets, Inc.",
+            "avatarUrl": "https://picsum.photos/id/237/200",
+            "socialAccounts": { "edges": [] }
+          },
+          {
+            "id": "cat",
+            "name": "Cat",
+            "login": "cat",
+            "bio": "wut",
+            "company": "Pets, Inc.",
+            "avatarUrl": "https://picsum.photos/id/238/200",
+            "socialAccounts": { "edges": [] }
+          },
+          {
+            "id": "mouse",
+            "name": "Mouse",
+            "login": "mouse",
+            "bio": "i heart cheese",
+            "company": "roDENTS",
+            "avatarUrl": "https://picsum.photos/id/239/200",
+            "socialAccounts": { "edges": [] }
+          },
+          {
+            "id": "squirrel",
+            "name": "Squirrel",
+            "login": "squirrel",
+            "bio": "you'll never find my acorns",
+            "company": "roDENTS",
+            "avatarUrl": "https://picsum.photos/id/240/200",
+            "socialAccounts": { "edges": [] }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.quarto-title-banner {
+  height: 50vw;
+  text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+  .quarto-title-banner {
+    height: 100vh;
+    text-align: center;
+  }
+}
+
+.quarto-title {
+  margin: auto;
+}
+.quarto-title .title {
+  font-size: calc(3rem + 1vw);
+}
+.quarto-title .subtitle {
+  font-weight: 400;
+}
+
+.split-section {
+  display: flex;
+  gap: 1em;
+}
+.side-image {
+  width: 50em;
+}
+.randomAvatars {
+  display: flex;
+  gap: 1em;
+}
+.randomAvatars img {
+  width: auto;
+  height: 4em;
+  border-radius: 4em;
+}
