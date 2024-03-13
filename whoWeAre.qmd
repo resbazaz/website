@@ -1,5 +1,23 @@
 ---
 title: "Who We Are"
+page-layout: full
+execute:
+  echo: false
 ---
 
-TODO
+We're a community of current / former / aspirational researchers, data scientists, and friends helping each other to learn new technologies via various different events.
+
+This is a diagram of who is involved in our weekly meetups, and who has has put in the work to organize our bigger festival events.
+
+TODO:
+
+- Click nodes to learn more!
+  - Highlight clicked nodes, show selected event / github profile links
+- Add a bounding box force, use space more effectively
+- Prettier links, fonts
+
+```{ojs}
+import { nodeLinkDiagram } from './components/nodeLinkDiagram.ojs';
+
+nodeLinkDiagram();
+```

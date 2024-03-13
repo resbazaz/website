@@ -11,8 +11,8 @@ website:
         text: Home
       - href: index.qmd#events
         text: Events
-      # - href: whoWeAre.qmd
-      #  text: Who We Are
+      - href: whoWeAre.qmd
+        text: Who We Are
   body-footer: |
     ::: {.footer}
       ![ResBaz Logo](/img/logos/ResBazAZrectanglelogo-small.png) \
