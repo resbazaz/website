@@ -1,9 +1,62 @@
 ---
-title: "Who We Are"
-page-layout: full
+layout: default
 execute:
   echo: false
 ---
+
+```{ojs}
+import { nodeLinkDiagram } from './components/nodeLinkDiagram.ojs';
+
+mutable selectedNode = null
+```
+
+::: { .column-screen-left }
+```{ojs}
+graph = nodeLinkDiagram((node) => {
+  mutable selectedNode = node;
+}, selectedNode);
+```
+:::
+
+::: { .column-margin }
+```{ojs}
+{
+  if (selectedNode === null) {
+    return md`
+*Click a node for more information*
+    `;
+  } else if (selectedNode.type === 'PERSON') {
+    const header = selectedNode.name
+      ? md`# ${selectedNode.name}`
+      : (selectedNode.login
+        ? md`# ${selectedNode.login}`
+        : '');
+
+    const profilePic = selectedNode.avatarUrl ? html`<figure class="figure">
+      <img class="img-fluid figure-img" src="${selectedNode.avatarUrl}"/>
+    </figure>` : '';
+
+    const company = selectedNode.company ? md`*${selectedNode.company}*` : '';
+
+    // TODO: selectedNode.login for github link / icon, selectedNode.socialAccounts list for others
+
+    const bio = selectedNode.bio ? md`${selectedNode.bio}` : '';
+
+    return md`
+${header}
+${profilePic}
+${company}
+${bio}
+`;
+  }
+  // TODO: sidebar for selectedNode.type === 'WEEKLY'
+  // TODO: sidebar for selectedNode.type === 'FESTIVAL'
+  return html`<p>Error! Unknown node: <pre>${
+    JSON.stringify(selectedNode, null, 2)
+  }</pre></p>`;
+}
+```
+:::
 
 We're a community of current / former / aspirational researchers, data scientists, and friends helping each other to learn new technologies via various different events.
 
@@ -13,11 +66,4 @@ TODO:
 
 - Click nodes to learn more!
   - Highlight clicked nodes, show selected event / github profile links
-- Add a bounding box force, use space more effectively
 - Prettier links, fonts
-
-```{ojs}
-import { nodeLinkDiagram } from './components/nodeLinkDiagram.ojs';
-
-nodeLinkDiagram();
-```

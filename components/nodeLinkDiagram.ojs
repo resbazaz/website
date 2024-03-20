@@ -1,13 +1,24 @@
 people = FileAttachment("data/people.json").json();
 
-function nodeLinkDiagram () {
-  const height = width * 0.6;
+nodeLinkDiagram = {
+  let selectNode, selectedNode = null;
+
+  const height = globalThis.screen.height - 200;
 
   const personNodeRadius = 25;
+  const personNodePaddedRadius = personNodeRadius + 15;
+
+  const highlightOutlineRadius = 5;
+  const highlightStrokeWeight = 5;
 
   const teamNodeRadius = 75;
 
-  const strokeWeight = 5;
+  const strokeWeight = 3;
+
+  const gravityMultiplier = 0.3;
+  const maxGravityAlpha = 0.0005;
+  const bounceStrength = 2;
+  const chargeStrength = -2000; // -10 * (personNodeRadius + teamNodeRadius);
 
   const weeklyTeams = new Set([
     'coffee_and_code',
@@ -43,118 +54,204 @@ function nodeLinkDiagram () {
     )
     .force(
       "charge",
-      d3.forceManyBody().strength(-30 * (personNodeRadius + teamNodeRadius))
+      d3.forceManyBody().strength(chargeStrength)
     )
-    .force("center", d3.forceCenter(width / 2, height / 2));
+    .force("centerAndBounds", (alpha) => {
+      nodes.forEach(d => {
+        const radius = d.type === 'PERSON' ? personNodePaddedRadius : teamNodeRadius;
+        // Kinda weird, but has a nice effect: apply gravity more strongly
+        // (within a limit) at the beginning of a layout / while you're
+        // dragging, but taper it off toward the end
+        const gravityAlpha = Math.min((alpha * gravityMultiplier) ** 2, maxGravityAlpha);
 
-  const svg = d3.create("svg").attr("viewBox", [0, 0, width, height]);
+        if (d.x < radius) {
+          d.x = radius;
+          d.vx += alpha * bounceStrength * (radius - d.x);
+        } else if (d.x > width - radius) {
+          d.x = width - radius;
+          d.vx += -alpha * bounceStrength * (d.x - width - radius);
+        }
+        const dx = width / 2 - d.x;
+        d.vx += Math.sign(dx) * gravityAlpha * dx ** 2;
+        
+        if (d.y < radius) {
+          d.y = radius;
+          d.vy += alpha * bounceStrength * (radius - d.y);
+        } else if (d.y > height - radius) {
+          d.y = height - radius;
+          d.vy += -alpha * bounceStrength * (d.y - height - radius);
+        }
+        const dy = height / 2 - d.y;
+        d.vy += Math.sign(dy) * gravityAlpha * dy ** 2;
+      });
+    })
+    .force('collide', d3.forceCollide((d) => d.type === 'PERSON' ? personNodePaddedRadius : teamNodeRadius));
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, width, height])
+    .style("user-select", "none");
+  svg.append('g')
+    .classed('links', true);
+  svg.append('g')
+    .classed('nodes', true);
 
   let draggedNode = null;
-  let selectedNode = null;
+  let dragOffset = null;
 
-  function mousedown(_, node) {
+  function mousedown(event, node) {
     if (draggedNode) {
       return;
     }
-    simulation.alphaTarget(0.3).restart();
-    draggedNode = selectedNode = node.id;
-    node.fx = node.x;
-    node.fy = node.y;
+    const bounds = svg.node().getBoundingClientRect();
+    simulation.alphaTarget(0.025).restart();
+    draggedNode = node;
+    selectNode(draggedNode);
+    const clickedPoint = {
+      x: event.x - bounds.left,
+      y: event.y - bounds.top
+    };
+    dragOffset = {
+      dx: clickedPoint.x - draggedNode.x,
+      dy: clickedPoint.y - draggedNode.y
+    };
+    // console.log('down', event, bounds, draggedNode, clickedPoint, dragOffset);
+    draggedNode.fx = draggedNode.x;
+    draggedNode.fy = draggedNode.y;
   }
 
-  function mousemove(event, node) {
+  function mousemove(event) {
     if (!draggedNode) {
       return;
     }
     const bounds = svg.node().getBoundingClientRect();
-    node.fx = event.x - bounds.left;
-    node.fy = event.y - bounds.top;
+    const clickedPoint = {
+      x: event.x - bounds.left,
+      y: event.y - bounds.top
+    };
+    // console.log('move', event, bounds, clickedPoint, dragOffset);
+    draggedNode.fx = clickedPoint.x - dragOffset.dx;
+    draggedNode.fy = clickedPoint.y - dragOffset.dy;
   }
 
-  function mouseup(_, event) {
+  function mouseup(event) {
     if (!draggedNode) {
       return;
     }
+    // console.log('up', draggedNode, dragOffset);
+    draggedNode.fx = null;
+    draggedNode.fy = null;
     draggedNode = null;
+    dragOffset = null;
     simulation.alphaTarget(0);
-    node.fx = null;
-    node.fy = null;
   }
 
-  const link = svg
-    .append("g")
-    .attr("stroke", "#999")
-    .attr("stroke-opacity", 0.6)
-    .selectAll("line")
-    .data(links)
-    .join("line")
-    .attr("stroke-width", strokeWeight);
+  function * render (_selectNode, _selectedNode) {
+    selectNode = _selectNode;
+    selectedNode = _selectedNode;
 
-  const node = svg
-    .append("g")
-    .selectAll("g.node")
-    .data(nodes)
-    .join("g")
-    .classed("node", true)
-    // d3.drag() does weird things with quarto's minified version of d3...
-    // plus, this lets us control clicking vs dragging ourselves
-    .on('mousedown', mousedown)
-    .on('mousemove', mousemove)
-    .on('mouseup', mouseup);
+    let link = svg
+      .select(".links")
+      .selectAll("line")
+      .data(links, (d) => `${d.from?.id}_${d.to?.id}`);
+    const linkEnter = link.enter()
+      .append("line")
+      .attr("stroke", "#999")
+      .attr("stroke-opacity", 0.6)
+      .attr("stroke-width", strokeWeight);
+    link.exit().remove();
+    link = link.merge(linkEnter);
 
-  const teamCircle = node
-    .filter((d) => d.type !== "PERSON")
-    .append("circle")
-    .attr("r", teamNodeRadius)
-    .style("fill", d => teamColors(d.type));
+    let node = svg
+      .select(".nodes")
+      .selectAll("g.node")
+      .data(nodes, (d) => d.id);
+    const nodeEnter = node.enter()
+      .append('g')
+      .classed('node', true);
+    node.exit().remove();
+    node = node.merge(nodeEnter)
+      // d3.drag() does weird things with quarto's minified version of d3, and
+      // isn't very retina display-friendly... so we manage interactions ourselves
+      .on('mousedown', mousedown);
+    d3.select(document)
+      .on('mousemove', mousemove)
+      .on('mouseup', mouseup);
+    
+    nodeEnter
+      .append("circle")
+      .classed('outline', true)
+      .attr("r", (d) => highlightOutlineRadius + (d.type === "PERSON" ? personNodeRadius : teamNodeRadius))
+      .style('fill', 'none')
+      .style('stroke', '#333')
+      .style('stroke-width', highlightStrokeWeight);
+    node.select('.outline')
+      .style('display', d => d.id === selectedNode?.id ? null : 'none');
 
-  const clipPath = node
-    .filter((d) => d.type === "PERSON")
-    .append("clipPath")
-    .attr("id", (d) => d.id)
-    .append("circle")
-    .attr("id", (d) => d.id)
-    .attr("r", personNodeRadius);
+    nodeEnter
+      .filter((d) => d.type !== "PERSON")
+      .append("circle")
+      .attr("r", teamNodeRadius)
+      .style("fill", d => teamColors(d.type));
 
-  // Append images
-  const profileImage = node
-    .filter((d) => d.type === "PERSON")
-    .append("image")
-    .attr("href", (d) => d.avatarUrl)
-    .attr("x", (d) => -personNodeRadius)
-    .attr("y", (d) => -personNodeRadius)
-    .attr("width", personNodeRadius * 2)
-    .attr("height", personNodeRadius * 2)
-    .attr("clip-path", (d) => `url(#${d.id})`)
-    .attr("preserveAspectRatio", "xMidYMin slice");
+    nodeEnter
+      .filter((d) => d.type === "PERSON")
+      .append("clipPath")
+      .attr("id", (d) => d.id)
+      .append("circle")
+      .attr("id", (d) => d.id)
+      .attr("r", personNodeRadius);
 
-  const text = node
-    .append("text")
-    .attr("class", "node_label")
-    .attr("y", (d) =>
-      d.type === "PERSON" ? `${personNodeRadius}px` : "0.5em"
-    )
-    .style("fill", (d) => (d.type === "PERSON" ? "black" : "white"))
-    .style("dominant-baseline", (d) =>
-      d.type === "PERSON" ? "hanging" : "bottom"
-    )
-    .style("text-anchor", "middle")
-    .style("font-size", "10pt")
-    .text((d) => d.name);
+    nodeEnter
+      .filter((d) => d.type === "PERSON")
+      .append("image")
+      .attr("href", (d) => d.avatarUrl)
+      .attr("x", (d) => -personNodeRadius)
+      .attr("y", (d) => -personNodeRadius)
+      .attr("width", personNodeRadius * 2)
+      .attr("height", personNodeRadius * 2)
+      .attr("clip-path", (d) => `url(#${d.id})`)
+      .attr("preserveAspectRatio", "xMidYMin slice");
 
-  node.append("title").text((d) => d.id);
+    nodeEnter
+      .append("text")
+      .attr("class", "node_label")
+      .style("fill", (d) => (d.type === "PERSON" ? "black" : "white"))
+      .style("dominant-baseline", (d) =>
+        d.type === "PERSON" ? "hanging" : "bottom"
+      )
+      .style("text-anchor", "middle")
+      .style("font-size", "10pt")
+      .text((d) => d.name || d.login);
+    node.select('text')
+      .attr("y", (d) => {
+        if (d.type !== 'PERSON') {
+          return "0.5em";
+        }
+        if (d.id === selectedNode?.id) {
+          return `${personNodeRadius + 2 * highlightOutlineRadius}px`;
+        }
+        return `${personNodeRadius}px`;
+      });
 
-  simulation.on("tick", () => {
-    link
-      .attr("x1", (d) => d.source.x)
-      .attr("y1", (d) => d.source.y)
-      .attr("x2", (d) => d.target.x)
-      .attr("y2", (d) => d.target.y);
+    nodeEnter
+      .append("title")
+      .text((d) => d.name || d.login);
 
-    node.attr("transform", (d) => "translate(" + d.x + "," + d.y + ")");
-  });
+    simulation.on("tick", () => {
+      node
+        .attr("transform", (d) => "translate(" + d.x + "," + d.y + ")");
 
-  // invalidation.then(() => simulation.stop());
+      link
+        .attr("x1", (d) => d.source.x)
+        .attr("y1", (d) => d.source.y)
+        .attr("x2", (d) => d.target.x)
+        .attr("y2", (d) => d.target.y);
+    });
 
-  return svg.node();
+    invalidation.then(() => simulation.stop());
+
+    yield svg.node();
+  }
+
+  return render;
 }
