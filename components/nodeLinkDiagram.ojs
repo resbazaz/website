@@ -3,7 +3,7 @@ people = FileAttachment("data/people.json").json();
 nodeLinkDiagram = {
   let selectNode, selectedNode = null;
 
-  const height = globalThis.screen.height - 200;
+  const height = globalThis.screen.height;
 
   const personNodeRadius = 25;
   const personNodePaddedRadius = personNodeRadius + 15;
