@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: 'ResBaz Arizona'
+  title: "ResBaz Arizona"
   navbar:
     background: dark
     foreground: primary
@@ -13,6 +13,8 @@ website:
         text: Events
       - href: whoWeAre.qmd
         text: Who We Are
+      - href: resbaz/resbazTucson2024.qmd
+        text: ResBaz 2024
   body-footer: |
     ::: {.footer}
       ![ResBaz Logo](/img/logos/ResBazAZrectanglelogo-small.png) \

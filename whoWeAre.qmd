@@ -12,7 +12,8 @@ mutable selectedNode = null
 
 ::: { .column-screen-left }
 ```{ojs}
-graph = nodeLinkDiagram((node) => {
+render = nodeLinkDiagram();
+graph = render((node) => {
   mutable selectedNode = node;
 }, selectedNode);
 ```

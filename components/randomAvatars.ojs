@@ -1,5 +1,14 @@
-peopleFile = FileAttachment('data/people.json').json();
+peopleFile = FileAttachment("data/people.json").json();
 
+/**
+ * An observable.js widget that shows profile pictures for ResBaz GitHub Team
+ * members; see index.qmd for examples. Additionally, some relevant styles are
+ * in styles/index.css
+ *
+ * @param teamName A string that should correspond to the name of an entry in
+ * data/people.json, under data.organization.teams.nodes
+ * @returns A DOM element that can be embedded via an ojs cell
+ */
 function randomAvatars(teamName) {
   const team = peopleFile.data.organization.teams.nodes.find(
     (team) => team.name === teamName
@@ -11,13 +20,14 @@ function randomAvatars(teamName) {
       )
     )
     .sort(() => 2 * Math.random() - 1);
-  const container = d3.create('div')
-    .classed('randomAvatars', true);
-  container.selectAll('img')
+  const container = d3.create("div").classed("randomAvatars", true);
+  container
+    .selectAll("img")
     .data(people)
     .enter()
-      .append('img')
-      .attr('src', person => person.avatarUrl)
-      .attr('title', person => person.name);
+    .append("img")
+    .attr("src", (person) => person.avatarUrl)
+    .attr("title", (person) => person.name);
+  // TODO: link to the Who We Are page, when a profile picture is clicked
   return container.node();
 }

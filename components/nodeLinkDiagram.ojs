@@ -1,7 +1,8 @@
 people = FileAttachment("data/people.json").json();
 
-nodeLinkDiagram = {
-  let selectNode, selectedNode = null;
+function nodeLinkDiagram() {
+  let selectNode,
+    selectedNode = null;
 
   const height = globalThis.screen.height;
 
@@ -20,27 +21,31 @@ nodeLinkDiagram = {
   const bounceStrength = 2;
   const chargeStrength = -2000; // -10 * (personNodeRadius + teamNodeRadius);
 
-  const weeklyTeams = new Set([
-    'coffee_and_code',
-    'hacky_hour'
-  ]);
+  const weeklyTeams = new Set(["coffee_and_code", "hacky_hour"]);
 
-  const teamColors = d3.scaleOrdinal(['WEEKLY', 'FESTIVAL'], ['#ea5a2a', '#1e58ac']);
+  const teamColors = d3.scaleOrdinal(
+    ["WEEKLY", "FESTIVAL"],
+    ["#ea5a2a", "#1e58ac"]
+  );
 
   const peopleById = Object.fromEntries(
     people.data.organization.membersWithRole.nodes.map((person) => [
       person.id,
       {
         ...person,
-        type: "PERSON"
-      }
+        type: "PERSON",
+      },
     ])
   );
   const nodes = Object.values(peopleById);
   const links = [];
   people.data.organization.teams.nodes.forEach((team) => {
     const teamId = team.name.toLowerCase().replace(/\s+/g, "_");
-    nodes.push({ id: teamId, name: team.name, type: weeklyTeams.has(teamId) ? "WEEKLY" : "FESTIVAL" });
+    nodes.push({
+      id: teamId,
+      name: team.name,
+      type: weeklyTeams.has(teamId) ? "WEEKLY" : "FESTIVAL",
+    });
     team.members.nodes.forEach((member) => {
       links.push({ source: member.id, target: teamId });
     });
@@ -52,17 +57,18 @@ nodeLinkDiagram = {
       "link",
       d3.forceLink(links).id((d) => d.id)
     )
-    .force(
-      "charge",
-      d3.forceManyBody().strength(chargeStrength)
-    )
+    .force("charge", d3.forceManyBody().strength(chargeStrength))
     .force("centerAndBounds", (alpha) => {
-      nodes.forEach(d => {
-        const radius = d.type === 'PERSON' ? personNodePaddedRadius : teamNodeRadius;
+      nodes.forEach((d) => {
+        const radius =
+          d.type === "PERSON" ? personNodePaddedRadius : teamNodeRadius;
         // Kinda weird, but has a nice effect: apply gravity more strongly
         // (within a limit) at the beginning of a layout / while you're
         // dragging, but taper it off toward the end
-        const gravityAlpha = Math.min((alpha * gravityMultiplier) ** 2, maxGravityAlpha);
+        const gravityAlpha = Math.min(
+          (alpha * gravityMultiplier) ** 2,
+          maxGravityAlpha
+        );
 
         if (d.x < radius) {
           d.x = radius;
@@ -73,7 +79,7 @@ nodeLinkDiagram = {
         }
         const dx = width / 2 - d.x;
         d.vx += Math.sign(dx) * gravityAlpha * dx ** 2;
-        
+
         if (d.y < radius) {
           d.y = radius;
           d.vy += alpha * bounceStrength * (radius - d.y);
@@ -85,15 +91,19 @@ nodeLinkDiagram = {
         d.vy += Math.sign(dy) * gravityAlpha * dy ** 2;
       });
     })
-    .force('collide', d3.forceCollide((d) => d.type === 'PERSON' ? personNodePaddedRadius : teamNodeRadius));
+    .force(
+      "collide",
+      d3.forceCollide((d) =>
+        d.type === "PERSON" ? personNodePaddedRadius : teamNodeRadius
+      )
+    );
 
-  const svg = d3.create("svg")
+  const svg = d3
+    .create("svg")
     .attr("viewBox", [0, 0, width, height])
     .style("user-select", "none");
-  svg.append('g')
-    .classed('links', true);
-  svg.append('g')
-    .classed('nodes', true);
+  svg.append("g").classed("links", true);
+  svg.append("g").classed("nodes", true);
 
   let draggedNode = null;
   let dragOffset = null;
@@ -108,11 +118,11 @@ nodeLinkDiagram = {
     selectNode(draggedNode);
     const clickedPoint = {
       x: event.x - bounds.left,
-      y: event.y - bounds.top
+      y: event.y - bounds.top,
     };
     dragOffset = {
       dx: clickedPoint.x - draggedNode.x,
-      dy: clickedPoint.y - draggedNode.y
+      dy: clickedPoint.y - draggedNode.y,
     };
     // console.log('down', event, bounds, draggedNode, clickedPoint, dragOffset);
     draggedNode.fx = draggedNode.x;
@@ -126,7 +136,7 @@ nodeLinkDiagram = {
     const bounds = svg.node().getBoundingClientRect();
     const clickedPoint = {
       x: event.x - bounds.left,
-      y: event.y - bounds.top
+      y: event.y - bounds.top,
     };
     // console.log('move', event, bounds, clickedPoint, dragOffset);
     draggedNode.fx = clickedPoint.x - dragOffset.dx;
@@ -145,7 +155,7 @@ nodeLinkDiagram = {
     simulation.alphaTarget(0);
   }
 
-  function * render (_selectNode, _selectedNode) {
+  function* render(_selectNode, _selectedNode) {
     selectNode = _selectNode;
     selectedNode = _selectedNode;
 
@@ -153,7 +163,8 @@ nodeLinkDiagram = {
       .select(".links")
       .selectAll("line")
       .data(links, (d) => `${d.from?.id}_${d.to?.id}`);
-    const linkEnter = link.enter()
+    const linkEnter = link
+      .enter()
       .append("line")
       .attr("stroke", "#999")
       .attr("stroke-opacity", 0.6)
@@ -165,33 +176,36 @@ nodeLinkDiagram = {
       .select(".nodes")
       .selectAll("g.node")
       .data(nodes, (d) => d.id);
-    const nodeEnter = node.enter()
-      .append('g')
-      .classed('node', true);
+    const nodeEnter = node.enter().append("g").classed("node", true);
     node.exit().remove();
-    node = node.merge(nodeEnter)
+    node = node
+      .merge(nodeEnter)
       // d3.drag() does weird things with quarto's minified version of d3, and
       // isn't very retina display-friendly... so we manage interactions ourselves
-      .on('mousedown', mousedown);
-    d3.select(document)
-      .on('mousemove', mousemove)
-      .on('mouseup', mouseup);
-    
+      .on("mousedown", mousedown);
+    d3.select(document).on("mousemove", mousemove).on("mouseup", mouseup);
+
     nodeEnter
       .append("circle")
-      .classed('outline', true)
-      .attr("r", (d) => highlightOutlineRadius + (d.type === "PERSON" ? personNodeRadius : teamNodeRadius))
-      .style('fill', 'none')
-      .style('stroke', '#333')
-      .style('stroke-width', highlightStrokeWeight);
-    node.select('.outline')
-      .style('display', d => d.id === selectedNode?.id ? null : 'none');
+      .classed("outline", true)
+      .attr(
+        "r",
+        (d) =>
+          highlightOutlineRadius +
+          (d.type === "PERSON" ? personNodeRadius : teamNodeRadius)
+      )
+      .style("fill", "none")
+      .style("stroke", "#333")
+      .style("stroke-width", highlightStrokeWeight);
+    node
+      .select(".outline")
+      .style("display", (d) => (d.id === selectedNode?.id ? null : "none"));
 
     nodeEnter
       .filter((d) => d.type !== "PERSON")
       .append("circle")
       .attr("r", teamNodeRadius)
-      .style("fill", d => teamColors(d.type));
+      .style("fill", (d) => teamColors(d.type));
 
     nodeEnter
       .filter((d) => d.type === "PERSON")
@@ -222,24 +236,20 @@ nodeLinkDiagram = {
       .style("text-anchor", "middle")
       .style("font-size", "10pt")
       .text((d) => d.name || d.login);
-    node.select('text')
-      .attr("y", (d) => {
-        if (d.type !== 'PERSON') {
-          return "0.5em";
-        }
-        if (d.id === selectedNode?.id) {
-          return `${personNodeRadius + 2 * highlightOutlineRadius}px`;
-        }
-        return `${personNodeRadius}px`;
-      });
+    node.select("text").attr("y", (d) => {
+      if (d.type !== "PERSON") {
+        return "0.5em";
+      }
+      if (d.id === selectedNode?.id) {
+        return `${personNodeRadius + 2 * highlightOutlineRadius}px`;
+      }
+      return `${personNodeRadius}px`;
+    });
 
-    nodeEnter
-      .append("title")
-      .text((d) => d.name || d.login);
+    nodeEnter.append("title").text((d) => d.name || d.login);
 
     simulation.on("tick", () => {
-      node
-        .attr("transform", (d) => "translate(" + d.x + "," + d.y + ")");
+      node.attr("transform", (d) => "translate(" + d.x + "," + d.y + ")");
 
       link
         .attr("x1", (d) => d.source.x)

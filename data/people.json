@@ -67,6 +67,10 @@
             "members": {
               "nodes": [
                 { "id": "MDQ6VXNlcjc0MjYzMw==" },
+                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
+                { "id": "MDQ6VXNlcjEyNjkxOTE4" },
+                { "id": "MDQ6VXNlcjIxMTI5NjM5" },
+                { "id": "MDQ6VXNlcjI1NDA0Nzgz" },
                 { "id": "U_kgDOBef8kg" }
               ]
             }
@@ -89,7 +93,7 @@
             "name": "Alex Bigelow",
             "login": "alex-r-bigelow",
             "bio": "I research how (and build software for!) people as they think about, reshape, and visualize data",
-            "company": "Stardog",
+            "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/1215873?u=9a4a9336866c4a348a0bb220a6e0490963bf32b5&v=4",
             "socialAccounts": {
               "edges": [
@@ -320,7 +324,7 @@
             "name": "Eric R. Scott",
             "login": "Aariq",
             "bio": "Scientific Programmer & Educator at University of Arizona",
-            "company": "University of Arizona",
+            "company": "University of Arizona, @cct-datascience",
             "avatarUrl": "https://avatars.githubusercontent.com/u/25404783?u=bf39b8163e91fb40423676c1806a9fc1ed665c0c&v=4",
             "socialAccounts": {
               "edges": [
