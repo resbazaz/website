@@ -83,6 +83,29 @@ randomAvatars("Hacky Hour");
 
 :::::
 
+### ResBaz Festival 
+
+::::: {.split-section}
+
+![ResBaz Festival](img/resBazAZ2024.png){.side-image .lightbox} \
+
+::: {.split-chunk}
+**Where**: Arizona
+
+**When**: Annually, for a few days in the spring (Apr/May)
+
+**What**: Learn, Network, Teach, Help, and Discuss are just a few of the availble things to do at ResBaz. Use the festival to add organizing events or presenting technical workshops to your resume, or simply attend and pick up a new data science trick, the choice is all yours!
+
+**Who you're likely to see**:
+
+```{ojs}
+randomAvatars("ResBaz Festival");
+```
+
+:::
+
+:::::
+
 ### Related Community Events
 
 #### Code Commons
