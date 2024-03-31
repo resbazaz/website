@@ -99,7 +99,7 @@ randomAvatars("Hacky Hour");
 **Who you're likely to see**:
 
 ```{ojs}
-randomAvatars("ResBaz Festival");
+randomAvatars("Festival2024");
 ```
 
 :::
