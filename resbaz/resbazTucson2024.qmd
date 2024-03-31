@@ -7,7 +7,7 @@ aliases:
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2024, events are happening at university campuses around the globe.
 
-ResBaz Arizona is a free, multi-day intensive conference where researchers come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
+ResBaz Arizona is a free, multi-day intensive conference happening **May 15th - 17th 2024** where researchers come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
 
 Who should attend? Researchers at ALL levels from ALL disciplines. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
@@ -28,6 +28,9 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 ## Schedule
 
 *Calendar coming soon!*
+* Wednesday, 15th May: fully online conference day
+* Thursday, 16th May: in-person day & Social
+* Friday, 17th May: in-person day
 
 ## Where to participate
 
@@ -35,7 +38,7 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 
 #### Accessibility
 
-We are committed to making this workshop accessible to everybody. For any accommodation requests, please contact us at [TODO: email]. We will do our best to make the event inclusive to all. 
+We are committed to making this workshop accessible to everybody. For any accommodation requests, please contact us at <ResBazAZ@gmail.com>. We will do our best to make the event inclusive to all. 
 
 ## Previous years
 
