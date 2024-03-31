@@ -2,7 +2,9 @@ peopleFile = FileAttachment("data/people.json").json();
 
 /**
  * An observable.js widget that shows profile pictures for ResBaz GitHub Team
- * members; see index.qmd for examples
+ * members; see index.qmd for examples. Additionally, some relevant styles are
+ * in styles/index.css
+ *
  * @param teamName A string that should correspond to the name of an entry in
  * data/people.json, under data.organization.teams.nodes
  * @returns A DOM element that can be embedded via an ojs cell
