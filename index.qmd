@@ -87,7 +87,7 @@ randomAvatars("Hacky Hour");
 
 ::::: {.split-section}
 
-![ResBaz Festival](img/resBazAZ2024.png){.side-image .lightbox} \
+![ResBaz Festival](img/resbazAZ2024_squareFlyer.png){.side-image .lightbox} \
 
 ::: {.split-chunk}
 **Where**: Arizona
