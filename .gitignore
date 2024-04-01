@@ -4,3 +4,4 @@ _site
 .Rproj.user
 **.Rhistory
 **.Rproj
+.DS_Store
