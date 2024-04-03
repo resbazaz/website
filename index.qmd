@@ -90,6 +90,9 @@ randomAvatars("Hacky Hour");
 ![ResBaz Festival](img/resbazAZ2024_squareFlyer.png){.side-image .lightbox} \
 
 ::: {.split-chunk}
+
+[Learn more and register for ResBaz 2024!](resbaz/resbazTucson2024.qmd)
+
 **Where**: Arizona
 
 **When**: Annually, for a few days in the spring (Apr/May)
