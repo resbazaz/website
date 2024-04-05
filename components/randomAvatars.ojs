@@ -19,7 +19,8 @@ function randomAvatars(teamName) {
         (person) => person.id === id
       )
     )
-    .sort(() => 2 * Math.random() - 1);
+    .sort(() => 2 * Math.random() - 1)
+    .slice(0, 5);
   const container = d3.create("div").classed("randomAvatars", true);
   container
     .selectAll("img")
