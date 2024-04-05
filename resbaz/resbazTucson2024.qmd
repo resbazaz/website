@@ -26,11 +26,15 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 
 ## Schedule
 
-*Calendar coming soon!*
+<div class="calendar spread">
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSViAjTeehEPDW3DuHvcNYl6kWfGqV8Zr_7LL0N43UQABt8YAqhYt3vhyIqaNuj-or7Fj1JNJOMOmU/pubhtml?widget=false&amp;chrome=false&amp;headers=false" width="1164" height="885"></iframe>
+</div>
 
-* Wednesday, 15th May: fully online conference day
-* Thursday, 16th May: in-person day & Social
-* Friday, 17th May: in-person day
+[comment]: <> (To change the messy email template below, the stuff after body= needs to be url-unencoded / url-encoded)
+
+[Click here to let us know if you'd like to teach a workshop!](mailto:ResBazAZ+2024WannaTeach@gmail.com?subject=Teaching%20A%20Workshop!&body=I%27d%20like%20to%20teach%20a%20workshop%20this%20year%20at%20ResBaz%202024%21%0A%0AIdeal%20days%20%2F%20times%3A%0A-%20Wednesday%20%28online%29%20at%20%28pick%20a%20time%21%29%0A-%20Friday%20%28in-person%29%20at%20%28pick%20a%20time%21%29%0A%0AWorkshop%20topic%3A%20%28pick%20a%20title%21%29%0A%0AOptional%20workshop%20description%3A%0A%28not%20more%20than%20one%20paragraph%21%20keep%20it%20simple%21%29%0A%0AMore%20details%3A%0A%28anything%20the%20conference%20organizers%20can%20help%20you%20with%21%29%0A%0AAbout%20you%3A%0A%28name%2C%20bio%20to%20display%20on%20the%20website%21%29%0A)
+
+
 
 ## Where to participate
 
