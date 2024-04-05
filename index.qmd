@@ -10,7 +10,10 @@ title-block-banner-color: white
 ---
 
 ```{ojs}
+import { combineAndOverrideGithubData } from './components/utilities.ojs';
 import { randomAvatars } from './components/randomAvatars.ojs';
+
+peopleData = combineAndOverrideGithubData();
 ```
 
 
@@ -52,7 +55,7 @@ _(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com
 **Who you're likely to see**:
 
 ```{ojs}
-randomAvatars("Coffee and Code");
+randomAvatars(peopleData, "coffee_and_code");
 ```
 
 :::
@@ -74,7 +77,7 @@ randomAvatars("Coffee and Code");
 **Who you're likely to see**:
 
 ```{ojs}
-randomAvatars("Hacky Hour");
+randomAvatars(peopleData, "hacky_hour");
 ```
 
 :::
@@ -99,7 +102,7 @@ randomAvatars("Hacky Hour");
 **Who you're likely to see**:
 
 ```{ojs}
-randomAvatars("Festival2024");
+randomAvatars(peopleData, "festival2024");
 ```
 
 :::

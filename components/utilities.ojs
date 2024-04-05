@@ -1,0 +1,81 @@
+people = FileAttachment("data/people.json").json();
+overrides = FileAttachment("data/overrides.json").json();
+
+function combineAndOverrideGithubData() {
+  const peopleById = {
+    // Include people manually added in overrides.json, that may not have a
+    // github login (or their info hasn't been queried yet by
+    // .github/workflows/build.yml, e.g. during local development)
+    ...overrides.people,
+    ...Object.fromEntries(
+      people.data.organization.membersWithRole.nodes.map((person) => [
+        person.login,
+        {
+          ...person,
+          // Github stores people by an illegible hash; we want to select +
+          // override data using Github usernames as ids (but still use
+          // hashes for url navigation)
+          hash: person.id,
+          id: person.login,
+          type: "PERSON",
+          // Override github profile information with details in overrides.json
+          ...(overrides.people[person?.login] || {}),
+        },
+      ])
+    ),
+  };
+
+  const peopleByHash = Object.fromEntries(
+    Object.values(peopleById).map((person) => [person.hash, person])
+  );
+
+  const teamsById = {
+    // Include this separately for manual "teams" that aren't on Github
+    ...overrides.teams,
+    ...Object.fromEntries(
+      people.data.organization.teams.nodes.map((team) => {
+        const teamId = team.name.toLowerCase().replace(/\s+/g, "_");
+        return [
+          teamId,
+          {
+            id: teamId,
+            name: team.name,
+            type: "FESTIVAL", // For non-festival "teams," add an override!
+            members: team.members.nodes.map(({ id }) => peopleByHash[id].login),
+            // Override any github teams with details in overrides.json
+            ...(overrides.teams[teamId] || {}),
+          },
+        ];
+      })
+    ),
+  };
+  Object.entries(teamsById).forEach(([teamId, team]) => {
+    // Some extra fields that we don't want to have to hand-code
+    // in overrides.json
+    if (!team.hash) {
+      team.id = teamId;
+      team.hash = teamId;
+    }
+    if (!team.type) {
+      team.type = "FESTIVAL";
+    }
+  });
+
+  const nodes = [...Object.values(peopleById), ...Object.values(teamsById)];
+  const links = [];
+  Object.values(teamsById).forEach((team) => {
+    team.members.forEach((member) => {
+      links.push({ source: member, target: team.id });
+    });
+  });
+
+  return {
+    peopleById,
+    peopleByHash,
+    teamsById,
+    graph: {
+      nodes,
+      links,
+    },
+  };
+}

@@ -1,6 +1,4 @@
-people = FileAttachment("data/people.json").json();
-
-function nodeLinkDiagram() {
+function nodeLinkDiagram(nodes, links) {
   let selectNode,
     selectedNode = null;
 
@@ -21,35 +19,10 @@ function nodeLinkDiagram() {
   const bounceStrength = 2;
   const chargeStrength = -2000; // -10 * (personNodeRadius + teamNodeRadius);
 
-  const weeklyTeams = new Set(["coffee_and_code", "hacky_hour"]);
-
   const teamColors = d3.scaleOrdinal(
     ["WEEKLY", "FESTIVAL"],
     ["#ea5a2a", "#1e58ac"]
   );
-
-  const peopleById = Object.fromEntries(
-    people.data.organization.membersWithRole.nodes.map((person) => [
-      person.id,
-      {
-        ...person,
-        type: "PERSON",
-      },
-    ])
-  );
-  const nodes = Object.values(peopleById);
-  const links = [];
-  people.data.organization.teams.nodes.forEach((team) => {
-    const teamId = team.name.toLowerCase().replace(/\s+/g, "_");
-    nodes.push({
-      id: teamId,
-      name: team.name,
-      type: weeklyTeams.has(teamId) ? "WEEKLY" : "FESTIVAL",
-    });
-    team.members.nodes.forEach((member) => {
-      links.push({ source: member.id, target: teamId });
-    });
-  });
 
   const simulation = d3
     .forceSimulation(nodes)
@@ -124,7 +97,6 @@ function nodeLinkDiagram() {
       dx: clickedPoint.x - draggedNode.x,
       dy: clickedPoint.y - draggedNode.y,
     };
-    // console.log('down', event, bounds, draggedNode, clickedPoint, dragOffset);
     draggedNode.fx = draggedNode.x;
     draggedNode.fy = draggedNode.y;
   }
@@ -138,7 +110,6 @@ function nodeLinkDiagram() {
       x: event.x - bounds.left,
       y: event.y - bounds.top,
     };
-    // console.log('move', event, bounds, clickedPoint, dragOffset);
     draggedNode.fx = clickedPoint.x - dragOffset.dx;
     draggedNode.fy = clickedPoint.y - dragOffset.dy;
   }
@@ -147,7 +118,6 @@ function nodeLinkDiagram() {
     if (!draggedNode) {
       return;
     }
-    // console.log('up', draggedNode, dragOffset);
     draggedNode.fx = null;
     draggedNode.fy = null;
     draggedNode = null;

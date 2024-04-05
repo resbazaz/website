@@ -1,20 +1,40 @@
 ---
 layout: default
+css: styles/whoWeAre.css
 execute:
   echo: false
 ---
 
+::: { .column-screen-left }
+
 ```{ojs}
+// A lot of setup here, mostly so we can have a common state
+// between nodeLinkDiagram and the sidebar
+import { combineAndOverrideGithubData } from './components/utilities.ojs';
 import { nodeLinkDiagram } from './components/nodeLinkDiagram.ojs';
 
-mutable selectedNode = null
-```
+peopleData = combineAndOverrideGithubData();
 
-::: { .column-screen-left }
-```{ojs}
-render = nodeLinkDiagram();
-graph = render((node) => {
+mutable selectedNode = null
+
+// On load, and when the back button is pressed, select the node indicated by the URL (if there is one)
+function handleHashChange () {
+  mutable selectedNode = window.location.hash
+    ? peopleData.graph.nodes.find(node => node.hash === window.location.hash.slice(1)) || null
+    : null
+}
+
+// More ojs weirdness: need to wrap event assignments in a cell
+// or `undefined` will show up in the page
+dummy = {
+  window.addEventListener('hashchange', handleHashChange);
+  window.addEventListener('load', handleHashChange);
+}
+
+render = nodeLinkDiagram(peopleData.graph.nodes, peopleData.graph.links);
+diagram = render((node) => {
   mutable selectedNode = node;
+  window.location.hash = node.hash;
 }, selectedNode);
 ```
 :::
@@ -24,6 +44,9 @@ graph = render((node) => {
 {
   if (selectedNode === null) {
     return md`
+This is a diagram of attendees, current and past organizers, and
+their relationships to various ResBaz Arizona events.
+
 *Click a node for more information*
     `;
   } else if (selectedNode.type === 'PERSON') {
@@ -39,6 +62,20 @@ graph = render((node) => {
 
     const company = selectedNode.company ? md`*${selectedNode.company}*` : '';
 
+    console.log(selectedNode);
+
+    const extraSocialAccounts = selectedNode?.socialAccounts?.edges
+      ?.filter(edge => edge.node?.provider && edge.node?.url)
+      ?.map(edge => edge.node) || [];
+    const socialIconList = [
+      ...(selectedNode?.websiteUrl ? [{ url: `https://github.com/${selectedNode.websiteUrl}`, provider: 'link' }] : []),
+      ...(selectedNode ? [{ url: `https://github.com/${selectedNode.login}`, provider: 'github' }] : []),
+      ...extraSocialAccounts,
+    ].map(account => html`<a href="${account.url}">
+        <img height="32px" src="img/logos/${account.provider.toLowerCase()}.svg"/>
+      </a>`) || '';
+    const socialIcons = html`<div class="socialIcons">${socialIconList}</div>`;
+
     // TODO: selectedNode.login for github link / icon, selectedNode.socialAccounts list for others
 
     const bio = selectedNode.bio ? md`${selectedNode.bio}` : '';
@@ -46,6 +83,7 @@ graph = render((node) => {
     return md`
 ${header}
 ${profilePic}
+${socialIcons}
 ${company}
 ${bio}
 `;
@@ -58,13 +96,3 @@ ${bio}
 }
 ```
 :::
-
-We're a community of current / former / aspirational researchers, data scientists, and friends helping each other to learn new technologies via various different events.
-
-This is a diagram of who is involved in our weekly meetups, and who has has put in the work to organize our bigger festival events.
-
-TODO:
-
-- Click nodes to learn more!
-  - Highlight clicked nodes, show selected event / github profile links
-- Prettier links, fonts

@@ -7,15 +7,33 @@
             "name": "Website Team",
             "members": {
               "nodes": [
-                { "id": "MDQ6VXNlcjc0MjYzMw==" },
-                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
-                { "id": "MDQ6VXNlcjE5Mzk4MTM=" },
-                { "id": "MDQ6VXNlcjcwODIwMjU=" },
-                { "id": "MDQ6VXNlcjExMDIzMzE3" },
-                { "id": "MDQ6VXNlcjEyMDIyMDc2" },
-                { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjM4OTYyMjQz" },
-                { "id": "U_kgDOBef8kg" }
+                {
+                  "id": "MDQ6VXNlcjc0MjYzMw=="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyMTU4NzM="
+                },
+                {
+                  "id": "MDQ6VXNlcjE5Mzk4MTM="
+                },
+                {
+                  "id": "MDQ6VXNlcjcwODIwMjU="
+                },
+                {
+                  "id": "MDQ6VXNlcjExMDIzMzE3"
+                },
+                {
+                  "id": "MDQ6VXNlcjEyMDIyMDc2"
+                },
+                {
+                  "id": "MDQ6VXNlcjIxMTI5NjM5"
+                },
+                {
+                  "id": "MDQ6VXNlcjM4OTYyMjQz"
+                },
+                {
+                  "id": "U_kgDOBef8kg"
+                }
               ]
             }
           },
@@ -23,11 +41,21 @@
             "name": "Governance Task Force",
             "members": {
               "nodes": [
-                { "id": "MDQ6VXNlcjc0MjYzMw==" },
-                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
-                { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjU2NzAyNjAw" },
-                { "id": "U_kgDOBef8kg" }
+                {
+                  "id": "MDQ6VXNlcjc0MjYzMw=="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyMTU4NzM="
+                },
+                {
+                  "id": "MDQ6VXNlcjIxMTI5NjM5"
+                },
+                {
+                  "id": "MDQ6VXNlcjU2NzAyNjAw"
+                },
+                {
+                  "id": "U_kgDOBef8kg"
+                }
               ]
             }
           },
@@ -35,20 +63,48 @@
             "name": "Festival2024",
             "members": {
               "nodes": [
-                { "id": "MDQ6VXNlcjc0MjYzMw==" },
-                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
-                { "id": "MDQ6VXNlcjE5Mzk4MTM=" },
-                { "id": "MDQ6VXNlcjM4ODMyNDE=" },
-                { "id": "MDQ6VXNlcjEyNjkxOTE4" },
-                { "id": "MDQ6VXNlcjE5ODIxMTcx" },
-                { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjI1NDA0Nzgz" },
-                { "id": "MDQ6VXNlcjM4OTYyMjQz" },
-                { "id": "MDQ6VXNlcjQ2NjEyOTMz" },
-                { "id": "MDQ6VXNlcjY4NDAzMzQw" },
-                { "id": "U_kgDOBef8kg" },
-                { "id": "U_kgDOBewVSw" },
-                { "id": "U_kgDOCR6ywQ" }
+                {
+                  "id": "MDQ6VXNlcjc0MjYzMw=="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyMTU4NzM="
+                },
+                {
+                  "id": "MDQ6VXNlcjE5Mzk4MTM="
+                },
+                {
+                  "id": "MDQ6VXNlcjM4ODMyNDE="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyNjkxOTE4"
+                },
+                {
+                  "id": "MDQ6VXNlcjE5ODIxMTcx"
+                },
+                {
+                  "id": "MDQ6VXNlcjIxMTI5NjM5"
+                },
+                {
+                  "id": "MDQ6VXNlcjI1NDA0Nzgz"
+                },
+                {
+                  "id": "MDQ6VXNlcjM4OTYyMjQz"
+                },
+                {
+                  "id": "MDQ6VXNlcjQ2NjEyOTMz"
+                },
+                {
+                  "id": "MDQ6VXNlcjY4NDAzMzQw"
+                },
+                {
+                  "id": "U_kgDOBef8kg"
+                },
+                {
+                  "id": "U_kgDOBewVSw"
+                },
+                {
+                  "id": "U_kgDOCR6ywQ"
+                }
               ]
             }
           },
@@ -56,9 +112,15 @@
             "name": "Hacky Hour",
             "members": {
               "nodes": [
-                { "id": "MDQ6VXNlcjc0MjYzMw==" },
-                { "id": "MDQ6VXNlcjY5NDcwODk=" },
-                { "id": "MDQ6VXNlcjEyNjkxOTE4" }
+                {
+                  "id": "MDQ6VXNlcjc0MjYzMw=="
+                },
+                {
+                  "id": "MDQ6VXNlcjY5NDcwODk="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyNjkxOTE4"
+                }
               ]
             }
           },
@@ -66,12 +128,37 @@
             "name": "Coffee and Code",
             "members": {
               "nodes": [
-                { "id": "MDQ6VXNlcjc0MjYzMw==" },
-                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
-                { "id": "MDQ6VXNlcjEyNjkxOTE4" },
-                { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjI1NDA0Nzgz" },
-                { "id": "U_kgDOBef8kg" }
+                {
+                  "id": "MDQ6VXNlcjc0MjYzMw=="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyMTU4NzM="
+                },
+                {
+                  "id": "MDQ6VXNlcjEyNjkxOTE4"
+                },
+                {
+                  "id": "MDQ6VXNlcjIxMTI5NjM5"
+                },
+                {
+                  "id": "MDQ6VXNlcjI1NDA0Nzgz"
+                },
+                {
+                  "id": "U_kgDOBef8kg"
+                }
+              ]
+            }
+          },
+          {
+            "name": "GitHub Admins",
+            "members": {
+              "nodes": [
+                {
+                  "id": "MDQ6VXNlcjc0MjYzMw=="
+                },
+                {
+                  "id": "U_kgDOBef8kg"
+                }
               ]
             }
           }
@@ -86,7 +173,10 @@
             "bio": "Organic Software Gardener 🍅",
             "company": "Exosphere Project",
             "avatarUrl": "https://avatars.githubusercontent.com/u/742633?u=204cc5138bfb07ef7332d3fa1d885bbbbe9e7281&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": "https://twitter.com/jpistorius",
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjEyMTU4NzM=",
@@ -95,6 +185,7 @@
             "bio": "I research how (and build software for!) people as they think about, reshape, and visualize data",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/1215873?u=9a4a9336866c4a348a0bb220a6e0490963bf32b5&v=4",
+            "websiteUrl": "https://alex-r-bigelow.github.io",
             "socialAccounts": {
               "edges": [
                 {
@@ -113,6 +204,7 @@
             "bio": "",
             "company": "University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/1939813?u=d39a4cac18c94ef60a298c2ad5fa82bb73fc30c3&v=4",
+            "websiteUrl": null,
             "socialAccounts": {
               "edges": [
                 {
@@ -131,6 +223,7 @@
             "bio": "Computing Sciences Researcher II at The University of Arizona.",
             "company": "The University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/3883241?u=bb818aa9153eb92f57ae7b878a39faed4988f025&v=4",
+            "websiteUrl": "https://soham.dev",
             "socialAccounts": {
               "edges": [
                 {
@@ -149,21 +242,31 @@
             "bio": "",
             "company": "Natural History Museum, University of Oslo",
             "avatarUrl": "https://avatars.githubusercontent.com/u/6617332?u=3836c3ffa014b36b188f4f45297f26461fb39a67&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": "https://sites.google.com/site/meghanbalk/",
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjY5NDcwODk=",
             "name": "Ryan Bartelme",
             "login": "rbartelme",
-            "bio": "Staff Data Scientist in biotechnology research and development",
-            "company": "Accelerate Diagnostics",
+            "bio": "Bioinformatician and Data Scientist in biotechnology research and development",
+            "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/6947089?u=9cc0c86dc9db92eb4358b6b9643b79db33b279f2&v=4",
+            "websiteUrl": "rbartelme.github.io",
             "socialAccounts": {
               "edges": [
                 {
                   "node": {
                     "provider": "TWITTER",
                     "url": "https://twitter.com/MicrobialBart"
+                  }
+                },
+                {
+                  "node": {
+                    "provider": "GENERIC",
+                    "url": "https://bsky.app/profile/microbialbart.bsky.social"
                   }
                 }
               ]
@@ -176,6 +279,7 @@
             "bio": "-_-",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/7082025?v=4",
+            "websiteUrl": null,
             "socialAccounts": {
               "edges": [
                 {
@@ -194,6 +298,7 @@
             "bio": "",
             "company": "University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/10335479?u=b9414a8cb122c29d6c8544baea85a84c6baab939&v=4",
+            "websiteUrl": null,
             "socialAccounts": {
               "edges": [
                 {
@@ -212,7 +317,10 @@
             "bio": "I'm a code curious biologist.",
             "company": "University of Alabama at Birmingham",
             "avatarUrl": "https://avatars.githubusercontent.com/u/11023317?u=7200ca4bee6441f2ef582f70df5fe39bd236e3ee&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjExNTI3MDQx",
@@ -221,6 +329,7 @@
             "bio": "Director of Open Science & Associate Professor at the University of Arizona, Institute for Computation and Data Enabled Insight ",
             "company": "University of Arizona, CyVerse",
             "avatarUrl": "https://avatars.githubusercontent.com/u/11527041?u=2cefefd17d2dc2ec8243b7a1f53a620f1fde2ff4&v=4",
+            "websiteUrl": "tysonswetnam.com",
             "socialAccounts": {
               "edges": [
                 {
@@ -245,6 +354,7 @@
             "bio": "",
             "company": "University of Arizona,  CCT Data Science",
             "avatarUrl": "https://avatars.githubusercontent.com/u/12022076?u=377f60f40b83a81b1e57ef8518406bc38ce6748f&v=4",
+            "websiteUrl": null,
             "socialAccounts": {
               "edges": [
                 {
@@ -263,7 +373,10 @@
             "bio": null,
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/12691918?u=a1c7d45e5755e99746ae358919406cc7f163b192&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjE5ODIxMTcx",
@@ -272,7 +385,10 @@
             "bio": "PhD Student at the University of Arizona's School of Information",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/19821171?u=3cca330b757c209c3c1547844a3ad81508304b58&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": "https://lwdozal.github.io/",
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjIwMzA1NzM0",
@@ -281,6 +397,7 @@
             "bio": "Staring at the universe's data in the dark.",
             "company": "Princeton Plasma Physics Lab; Steward Obs",
             "avatarUrl": "https://avatars.githubusercontent.com/u/20305734?u=84a111e22eef413d58e1370acea7cb12d075fc05&v=4",
+            "websiteUrl": "https://astrochun.github.io",
             "socialAccounts": {
               "edges": [
                 {
@@ -297,9 +414,12 @@
             "name": "Heidi Steiner",
             "login": "hidyverse",
             "bio": "",
-            "company": "University of Arizona",
+            "company": "@Boehringer-Ingelheim",
             "avatarUrl": "https://avatars.githubusercontent.com/u/21129639?u=f02dbb9a9ecfad325fa0ead8378f8d77f9150012&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjIyMzgxNTM2",
@@ -308,7 +428,10 @@
             "bio": "",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/22381536?u=5925008755e77dd5f884bd288ed6c0ff6f29a25d&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjI1MjM1MjI4",
@@ -317,7 +440,10 @@
             "bio": "Librarian @ University of Arizona\r\nDirector, Catalyst Studios\r\n@resbazaz organizer\r\n",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/25235228?u=84becdeac90a0ca8727cfcbfac7988ba13baca46&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjI1NDA0Nzgz",
@@ -326,6 +452,7 @@
             "bio": "Scientific Programmer & Educator at University of Arizona",
             "company": "University of Arizona, @cct-datascience",
             "avatarUrl": "https://avatars.githubusercontent.com/u/25404783?u=bf39b8163e91fb40423676c1806a9fc1ed665c0c&v=4",
+            "websiteUrl": "www.ericrscott.com",
             "socialAccounts": {
               "edges": [
                 {
@@ -356,7 +483,10 @@
             "bio": "",
             "company": "University of Arizona's iSchool",
             "avatarUrl": "https://avatars.githubusercontent.com/u/34466941?u=c00f55a3718179e6d8e73acf75d18f3373a59da9&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjM0NDg2MTU0",
@@ -365,7 +495,10 @@
             "bio": "Turkeys make excellent companions.",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/34486154?v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": "MagicMilly.github.io",
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjM2MTczNDkw",
@@ -374,6 +507,7 @@
             "bio": "Computational geneticist",
             "company": "NIH",
             "avatarUrl": "https://avatars.githubusercontent.com/u/36173490?v=4",
+            "websiteUrl": "https://www.linkedin.com/in/joanneberghout/",
             "socialAccounts": {
               "edges": [
                 {
@@ -392,7 +526,10 @@
             "bio": "Data Scientist | PhD, University of Arizona | R/RStudio Evangelist",
             "company": "University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/38962243?u=7ec452e5b8489ddbd966d22fdd5984332225c2ad&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": "https://gregtchism.com/",
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjQxNzA2OTE1",
@@ -401,7 +538,10 @@
             "bio": "",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/41706915?u=f94237b4dc3896de97d3fd66872ac172fb638337&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjQ2NjEyOTMz",
@@ -410,7 +550,10 @@
             "bio": "Astronomer, Data Scientist, Space Science & EO Enthusiast",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/46612933?v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjQ3NzY2MDc0",
@@ -419,7 +562,10 @@
             "bio": "",
             "company": "GSA",
             "avatarUrl": "https://avatars.githubusercontent.com/u/47766074?u=6e52d4344ed85cd5c8b5e873ec28f1d5e74907e9&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjU2NzAyNjAw",
@@ -428,6 +574,7 @@
             "bio": "",
             "company": "University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/56702600?u=03ece3573c51cb41e21197f7c2071d122d5e25a8&v=4",
+            "websiteUrl": "https://liaossanna.wixsite.com/liaos",
             "socialAccounts": {
               "edges": [
                 {
@@ -446,7 +593,10 @@
             "bio": null,
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/61329916?v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "MDQ6VXNlcjY4NDAzMzQw",
@@ -455,6 +605,7 @@
             "bio": "PhD Student in Ecological and Environmental Informatics,\r\nSchool of Informatics, Computing, and Cyber Systems\r\n    \r\n\r\n",
             "company": "Northern Arizona University",
             "avatarUrl": "https://avatars.githubusercontent.com/u/68403340?u=d3e846be891006b37a7aae3b74c7ecde9d0ab6fd&v=4",
+            "websiteUrl": null,
             "socialAccounts": {
               "edges": [
                 {
@@ -473,7 +624,10 @@
             "bio": null,
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/72940286?u=c0d118c3c830aa038eb2993753b42979431b3dd2&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "U_kgDOBdICzA",
@@ -482,7 +636,10 @@
             "bio": "",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/97649356?v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "U_kgDOBef8kg",
@@ -491,7 +648,10 @@
             "bio": "",
             "company": "University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/99089554?u=1441d55ea7637555aca31523963c26a68df6f57f&v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "U_kgDOBewVSw",
@@ -500,7 +660,10 @@
             "bio": null,
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/99358027?v=4",
-            "socialAccounts": { "edges": [] }
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           },
           {
             "id": "U_kgDOCR6ywQ",
@@ -508,8 +671,11 @@
             "login": "ejahnUA",
             "bio": "",
             "company": "University of Arizona",
-            "avatarUrl": "https://avatars.githubusercontent.com/u/153006785?u=d14316c1567ab29135738cc82d41d37607b9963f&v=4",
-            "socialAccounts": { "edges": [] }
+            "avatarUrl": "https://avatars.githubusercontent.com/u/153006785?u=bafb3ce0c2ce02e9812c805a17950ab0e4445c83&v=4",
+            "websiteUrl": null,
+            "socialAccounts": {
+              "edges": []
+            }
           }
         ]
       }
