@@ -1,0 +1,29 @@
+{
+    "name": "R (rocker/r-ver base)",
+    "image": "ghcr.io/rocker-org/devcontainer/r-ver:4",
+    "features": {
+        "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+            "installChromium": true
+        },
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            "packages": "libudunits2-dev,libxtst6,libxt6,libmagick++-dev,libgtk-3-dev,libnotify-dev,libgconf-2-4,libnss3,libxss1,libasound2"
+        },
+        "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
+            "packages": "github::rstudio/renv,tidyverse,here,httpgd"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mechatroner.rainbow-csv",
+                "quarto.quarto"
+            ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "index.qmd",
+                "resbaz/resbazTucson2024.qmd"
+            ]
+        }
+    }
+}

@@ -13,7 +13,8 @@ function randomAvatars(peopleData, teamId) {
   const team = peopleData.teamsById[teamId];
   const people = team.members
     .map((id) => peopleData.peopleById[id])
-    .sort(() => 2 * Math.random() - 1);
+    .sort(() => 2 * Math.random() - 1)
+    .slice(0, 5);
   const container = d3.create("div").classed("randomAvatars", true);
   container
     .selectAll("a")

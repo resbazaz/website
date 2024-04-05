@@ -7,7 +7,7 @@ aliases:
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2024, events are happening at university campuses around the globe.
 
-ResBaz Arizona is a free, multi-day intensive conference where researchers come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
+ResBaz Arizona is a free, multi-day intensive conference happening **May 15th - 17th 2024** where researchers come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
 
 Who should attend? Researchers at ALL levels from ALL disciplines. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
@@ -15,11 +15,10 @@ Who should attend? Researchers at ALL levels from ALL disciplines. PhD and resea
 
 ### How do I participate in ResBaz?
 
-At ResBaz, you choose your level of participation. 
+At ResBaz, you choose your level of participation. Join us for one session, one day, or the entire conference, depending on your interests and availability. 
 
-All in? On the [event registration link](https://forms.gle/u5naq46pn3YoKERd8), you will find a choice to volunteer to be contacted to speak, help, or facilitate a session. 
+Want to be part of the team? On the [event registration link](https://forms.gle/u5naq46pn3YoKERd8), you will find an option to volunteer to be contacted to speak, help, or facilitate a session. 
 
-Just starting out? Join us for one session, one day, or the entire conference, depending on your interests and availability. 
 
 ### What can I do at ResBaz?
 
@@ -29,13 +28,17 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 
 *Calendar coming soon!*
 
+* Wednesday, 15th May: fully online conference day
+* Thursday, 16th May: in-person day & Social
+* Friday, 17th May: in-person day
+
 ## Where to participate
 
 *Map(s) and Zoom links coming soon!*
 
 #### Accessibility
 
-We are committed to making this workshop accessible to everybody. For any accommodation requests, please contact us at [TODO: email]. We will do our best to make the event inclusive to all. 
+We are committed to making this workshop accessible to everybody. For any accommodation requests, please contact us at <ResBazAZ+JEDI@gmail.com>. We will do our best to make the event inclusive to all. 
 
 ## Previous years
 

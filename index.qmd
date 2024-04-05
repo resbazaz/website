@@ -52,7 +52,7 @@ _(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com
 
 **What**: Whether you're debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries -- join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!
 
-**Who you're likely to see**:
+**A few people you're likely to see**:
 
 ```{ojs}
 randomAvatars(peopleData, "coffee_and_code");
@@ -74,7 +74,7 @@ randomAvatars(peopleData, "coffee_and_code");
 
 **What**: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!
 
-**Who you're likely to see**:
+**A few people you're likely to see**:
 
 ```{ojs}
 randomAvatars(peopleData, "hacky_hour");
@@ -90,16 +90,19 @@ randomAvatars(peopleData, "hacky_hour");
 
 ::::: {.split-section}
 
-![ResBaz Festival](img/resBazAZ2024.png){.side-image .lightbox} \
+![ResBaz Festival](img/resbazAZ2024_squareFlyer.png){.side-image .lightbox} \
 
 ::: {.split-chunk}
+
+[Learn more and register for ResBaz 2024!](resbaz/resbazTucson2024.qmd)
+
 **Where**: Arizona
 
 **When**: Annually, for a few days in the spring (Apr/May)
 
 **What**: Learn, Network, Teach, Help, and Discuss are just a few of the availble things to do at ResBaz. Use the festival to add organizing events or presenting technical workshops to your resume, or simply attend and pick up a new data science trick, the choice is all yours!
 
-**Who you're likely to see**:
+**A few people you're likely to see**:
 
 ```{ojs}
 randomAvatars(peopleData, "festival2024");
