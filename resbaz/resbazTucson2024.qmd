@@ -1,8 +1,9 @@
 ---
 layout: default
 title: ResBaz Arizona
+css: /styles/festivalPages.css
 aliases:
-  - resbazArizona2024 
+  - resbazArizona2024
 ---
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2024, events are happening at university campuses around the globe.
@@ -19,7 +20,6 @@ At ResBaz, you choose your level of participation. Join us for one session, one 
 
 Want to be part of the team? On the [event registration link](https://forms.gle/u5naq46pn3YoKERd8), you will find an option to volunteer to be contacted to speak, help, or facilitate a session. 
 
-
 ### What can I do at ResBaz?
 
 Learn, Network, Teach, Help, and Discuss are just a few of the availble things to do at ResBaz. Use the conference to add organizing events to your resume or simply attend and pick up a new data science trick, the choice is all yours!
@@ -35,14 +35,24 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 [Click here to let us know if you'd like to teach a workshop!](mailto:ResBazAZ+2024WannaTeach@gmail.com?subject=Teaching%20A%20Workshop!&body=I%27d%20like%20to%20teach%20a%20workshop%20this%20year%20at%20ResBaz%202024%21%0A%0AIdeal%20days%20%2F%20times%3A%0A-%20Wednesday%20%28online%29%20at%20%28pick%20a%20time%21%29%0A-%20Friday%20%28in-person%29%20at%20%28pick%20a%20time%21%29%0A%0AWorkshop%20topic%3A%20%28pick%20a%20title%21%29%0A%0AOptional%20workshop%20description%3A%0A%28not%20more%20than%20one%20paragraph%21%20keep%20it%20simple%21%29%0A%0AMore%20details%3A%0A%28anything%20the%20conference%20organizers%20can%20help%20you%20with%21%29%0A%0AAbout%20you%3A%0A%28name%2C%20bio%20to%20display%20on%20the%20website%21%29%0A)
 
 
-
 ## Where to participate
 
 *Map(s) and Zoom links coming soon!*
 
-#### Accessibility
+## Sponsors
 
-We are committed to making this workshop accessible to everybody. For any accommodation requests, please contact us at <ResBazAZ+JEDI@gmail.com>. We will do our best to make the event inclusive to all. 
+::: sponsor-logos
+
+[![University of Arizona ICDI](/img/logos/ua_icdi.svg)](https://datainsight.arizona.edu/)
+[![University of Arizona Data Science Institute](/img/logos/ua_dsi.svg)](https://datascience.arizona.edu/)
+[![University of Arizona Libraries](/img/logos/ua_libraries.png)](https://lib.arizona.edu/)
+
+:::
+
+
+## Accessibility
+
+We are committed to making this workshop accessible to everybody. For any accommodation requests, please contact us at <ResBazAZ+JEDI@gmail.com>. We will do our best to make the event inclusive to all.
 
 ## Previous years
 
