@@ -1,0 +1,21 @@
+.sponsor-logos {
+  display: flex;
+  gap: 1.5em;
+  align-items: stretch;
+  .block-a {
+    height: 8.5em;
+  }
+  .separator {
+    width: 2px;
+    background-color: #00275b;
+  }
+  .ua-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    img {
+      height: 2em;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ResBaz Arizona
-css: /styles/festivalPages.css
+css: /styles/festivalPages.scss
 aliases:
   - resbazArizona2024
 ---
@@ -41,13 +41,25 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 
 ## Sponsors
 
-::: sponsor-logos
-
-[![University of Arizona ICDI](/img/logos/ua_icdi.svg)](https://datainsight.arizona.edu/)
-[![University of Arizona Data Science Institute](/img/logos/ua_dsi.svg)](https://datascience.arizona.edu/)
-[![University of Arizona Libraries](/img/logos/ua_libraries.png)](https://lib.arizona.edu/)
-
-:::
+```{=html}
+<div class="sponsor-logos">
+  <a href="https://www.arizona.edu" title="University of Arizona">
+    <img class="block-a" src="/img/logos/block_a.svg"/>
+  </a>
+  <div class="separator"></div>
+  <div class="ua-groups">
+    <a href="https://lib.arizona.edu" title="University of Arizona Libraries">
+      <img src="/img/logos/ua_libraries.svg"/>
+    </a>
+    <a href="https://datainsight.arizona.edu" title="University of Arizona ICDI">
+      <img src="/img/logos/ua_icdi.svg"/>
+    </a>
+    <a href="https://datascience.arizona.edu" title="University of Arizona Data Science Institute">
+      <img src="/img/logos/ua_dsi.svg"/>
+    </a>
+  </div>
+</div>
+```
 
 
 ## Accessibility
