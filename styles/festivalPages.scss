@@ -3,6 +3,9 @@
   align-items: stretch;
   min-height: 4em;
   gap: 1em;
+  a {
+    text-decoration: none;
+  }
 
   .block-a {
     padding-right: 1em;
