@@ -1,9 +1,0 @@
-.sponsor-logos > p {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 1em;
-}
-.sponsor-logos img {
-  height: 3em;
-}
