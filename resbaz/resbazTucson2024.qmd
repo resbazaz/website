@@ -43,19 +43,19 @@ Learn, Network, Teach, Help, and Discuss are just a few of the availble things t
 
 ```{=html}
 <div class="sponsor-logos">
-  <a href="https://www.arizona.edu" title="University of Arizona">
-    <img class="block-a" src="/img/logos/block_a.svg"/>
+  <a class="block-a" href="https://www.arizona.edu" title="University of Arizona">
+    <img src="/img/logos/block_a.svg"/>
   </a>
-  <div class="separator"></div>
+
   <div class="ua-groups">
-    <a href="https://lib.arizona.edu" title="University of Arizona Libraries">
-      <img src="/img/logos/ua_libraries.svg"/>
+    <a href="https://lib.arizona.edu" title="University Libraries">
+      <img src="/img/logos/ua_libraries.svg" style="height:1.25em"/>
     </a>
-    <a href="https://datainsight.arizona.edu" title="University of Arizona ICDI">
-      <img src="/img/logos/ua_icdi.svg"/>
+    <a href="https://datainsight.arizona.edu" title="Institute for Computing and Data-Enabled Insight">
+      <img src="/img/logos/ua_icdi.svg" style="height:2em"/>
     </a>
-    <a href="https://datascience.arizona.edu" title="University of Arizona Data Science Institute">
-      <img src="/img/logos/ua_dsi.svg"/>
+    <a href="https://datascience.arizona.edu" title="Data Science Institute">
+      <img src="/img/logos/ua_dsi.svg" style="height:1.75em"/>
     </a>
   </div>
 </div>
