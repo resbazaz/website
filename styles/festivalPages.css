@@ -4,7 +4,7 @@
   min-height: 4em;
   gap: 1em;
   a {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 
   .block-a {
