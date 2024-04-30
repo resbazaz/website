@@ -30,6 +30,26 @@ Learn, Network, Teach, Help, and Discuss are just a few of the available things 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSViAjTeehEPDW3DuHvcNYl6kWfGqV8Zr_7LL0N43UQABt8YAqhYt3vhyIqaNuj-or7Fj1JNJOMOmU/pubhtml?widget=false&amp;chrome=false&amp;headers=false" width="1164" height="885"></iframe>
 </div>
 
+## Unconference Day at ResBaz 2024
+
+The second day of ResBaz 2024, Thursday, May 16th, is our highly interactive "Unconference Day." This participant-driven event is a unique opportunity for attendees to shape the conference experience through their own interests and expertise.
+
+### What is an Unconference?
+
+An unconference is a collaborative model where the attendees themselves propose and organize sessions or discussions based on their shared interests and knowledge. Rather than a pre-planned schedule, the agenda emerges organically during the event, allowing for dynamic and engaging conversations.
+
+### What to Expect at the Unconference Day
+
+- **Speed Geeking:** Quickly learn about diverse topics through rapid conversations with knowledgeable individuals. This fast-paced format allows you to explore a wide range of subjects in a short period.
+
+- **Birds-of-a-Feather Sessions:** Join informal discussion groups centered around specific research interests, digital tools, or areas of expertise. These sessions foster organic conversations and networking opportunities among like-minded attendees.
+
+- **Lightning Talks:** Attend quick, five-minute presentations showcasing a variety of projects, research findings, or insights on digital tools. Lightning talks offer a rapid-fire way to expose yourself to numerous ideas and topics.
+
+The Unconference Day is all about participation, collaboration, and sharing knowledge. Attendees can propose and lead sessions, contribute to discussions, or simply engage as active learners. The schedule will be dynamic, allowing you to join sessions that pique your curiosity and align with your interests.
+
+Don't miss this opportunity to shape your own ResBaz experience and connect with fellow researchers in an interactive and engaging environment!
+
 [comment]: <> (To change the messy email template below, the stuff after body= needs to be url-unencoded / url-encoded)
 
 [Click here to let us know if you'd like to teach a workshop!](mailto:ResBazAZ+2024WannaTeach@gmail.com?subject=Teaching%20A%20Workshop!&body=I%27d%20like%20to%20teach%20a%20workshop%20this%20year%20at%20ResBaz%202024%21%0A%0AIdeal%20days%20%2F%20times%3A%0A-%20Wednesday%20%28online%29%20at%20%28pick%20a%20time%21%29%0A-%20Friday%20%28in-person%29%20at%20%28pick%20a%20time%21%29%0A%0AWorkshop%20topic%3A%20%28pick%20a%20title%21%29%0A%0AOptional%20workshop%20description%3A%0A%28not%20more%20than%20one%20paragraph%21%20keep%20it%20simple%21%29%0A%0AMore%20details%3A%0A%28anything%20the%20conference%20organizers%20can%20help%20you%20with%21%29%0A%0AAbout%20you%3A%0A%28name%2C%20bio%20to%20display%20on%20the%20website%21%29%0A)
