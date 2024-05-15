@@ -6,6 +6,10 @@ aliases:
   - resbazArizona2024
 ---
 
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+
+
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2024, events are happening at university campuses around the globe.
 
 ResBaz Arizona is a free, multi-day intensive conference happening **May 15th - 17th 2024** where researchers come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
@@ -96,3 +100,21 @@ We are committed to making this workshop accessible to everybody. For any accomm
 - [ResBaz Tucson 2021](/resbaz/resbazTucson2021.qmd)
 - [ResBaz Tucson 2020](/resbaz/resbazTucson2020.qmd)
 - [ResBaz Tucson 2019](/resbaz/resbazTucson2019.qmd)
+
+## Comments
+
+<div id="comment-section"></div>
+
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "resbazaz",
+  commentSectionId: "festival2024",
+  updateInterval: 15,
+  loginEnabled: true,
+  guestPostingEnabled: true,
+  pageSize: 6
+})
+</script>
