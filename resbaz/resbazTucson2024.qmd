@@ -114,6 +114,7 @@ initComments({
   commentSectionId: "festival2024",
   updateInterval: 15,
   loginEnabled: true,
-  guestPostingEnabled: true
+  guestPostingEnabled: true,
+  pageSize: 6
 })
 </script>
