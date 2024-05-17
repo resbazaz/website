@@ -154,3 +154,4 @@ Their aims are for UX enthusiasts of all levels to:
 - [Tucson 2021 festival](resbaz/resbazTucson2021.qmd)
 - [Tucson 2020 festival](resbaz/resbazTucson2020.qmd)
 - [Tucson 2019 festival](resbaz/resbazTucson2019.qmd)
+- [Tucson 2018 festival)(resbaz/resbazTucson2018.qmd)
