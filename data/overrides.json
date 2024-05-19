@@ -1,0 +1,18 @@
+{
+  "teams": {
+    "festival2024": {
+      "name": "2024 Festival Organizers"
+    },
+    "coffee_and_code": {
+      "type": "WEEKLY"
+    },
+    "hacky_hour": {
+      "type": "WEEKLY"
+    }
+  },
+  "people": {
+    "alex-r-bigelow": {
+      "bio": "I research how (and build software for!) people as they think about, reshape, and visualize data"
+    }
+  }
+}

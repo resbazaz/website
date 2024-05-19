@@ -1,0 +1,8 @@
+.socialIcons {
+  display: flex;
+  gap: 0.5em;
+  margin: 0.5em 0;
+}
+.socialIcons a {
+  text-decoration: none !important;
+}

@@ -33,6 +33,7 @@ jobs:
                     bio
                     company
                     avatarUrl
+                    websiteUrl
                     socialAccounts(first:10) {
                       edges {
                         node {
