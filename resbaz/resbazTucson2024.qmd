@@ -16,13 +16,12 @@ ResBaz Arizona is a free, multi-day intensive conference happening **May 15th - 
 
 Who should attend? Researchers at ALL levels from ALL disciplines. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
-[Register here!](https://forms.gle/u5naq46pn3YoKERd8)
 
 ### How do I participate in ResBaz?
 
 At ResBaz, you choose your level of participation. Join us for one session, one day, or the entire conference, depending on your interests and availability. 
 
-Want to be part of the team? On the [event registration link](https://forms.gle/u5naq46pn3YoKERd8), you will find an option to volunteer to be contacted to speak, help, or facilitate a session. 
+Want to be part of the team? On the event registration link, you will find an option to volunteer to be contacted to speak, help, or facilitate a session. 
 
 ### What can I do at ResBaz?
 
@@ -102,6 +101,7 @@ We are committed to making this workshop accessible to everybody. For any accomm
 - [ResBaz Tucson 2021](/resbaz/resbazTucson2021.qmd)
 - [ResBaz Tucson 2020](/resbaz/resbazTucson2020.qmd)
 - [ResBaz Tucson 2019](/resbaz/resbazTucson2019.qmd)
+- [ResBaz Tucson 2018](/resbaz/resbazTucson2018.qmd)
 
 ## Comments
 
