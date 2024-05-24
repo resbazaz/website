@@ -1,0 +1,56 @@
+---
+title: "ResBaz AZ 2018"
+editor: visual
+---
+
+# **About**
+
+The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2018, events will be held at a number of university campuses around the globe.
+
+**ResBaz Tucson will be hosted by the University of Arizona on March 29th and 30th, 2018.** It is organized by collaborators at the University of Arizona and sponsored by the UA Libraries.
+
+The Tucson Research Bazaar is a (free-of-charge) 2-day intensive conference where researchers come together to up-skill in ‘next generation digital research tools and skills’. In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
+
+Who should attend? Researchers at ALL levels from ALL disciplines. PhD and research Masters students are especially encouraged to apply. Research technologists who support researchers to do their job should also come along!
+
+## Venue
+
+This event will be held at the Main Library 112A (and area immediately outside the room), at the University of Arizona in Tucson, Arizona.
+
+## Sessions
+
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+|            | Thursday                                                                                                   | Friday                                                                           |
++============+============================================================================================================+==================================================================================+
+| All Day    | Registration                                                                                               | Registration                                                                     |
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+| 10 - Noon  | -   Workshop: Intro to Python                                                                              | [Workshop: Open Science Framework](http://tiny.cc/wkziry)                        |
+|            |                                                                                                            |                                                                                  |
+|            | -   Workshop: Intro to R                                                                                   |                                                                                  |
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+| Noon - 2pm | -   Lunch, socialize, and advertise your needs                                                             | -   Lunch, socialize, and advertise your needs                                   |
+|            |                                                                                                            |                                                                                  |
+|            | -   [Workshop: Data Management for Postdocs](https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx) | -   Panel: Research Careers Outside of the Academy (includes catered lunch)      |
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+| 2 - 4pm    | Panel: Open and Reproducible Science                                                                       | -   Bring Your Data for Visualization using Jupyter Notebooks                    |
+|            |                                                                                                            |                                                                                  |
+|            |                                                                                                            | -   Workshop: Machine Learning for anomaly detection using Python & Apache Spark |
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+| 4pm        | First Day Wrap Up and Free Stuff Giveaway                                                                  | Raffle                                                                           |
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+| 5:30pm     | Birds of a Feather Dinners                                                                                 | Gentle Ben's to Celebrate Another Successful Bazaar                              |
++------------+------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+
+## Registration
+
+Register to attend ResBaz, Tucson
+
+Register to attend the Data Management for PostDocs Workshop on Thursday
+
+Register to attend the Open Science Framework Workshops on Friday
+
+## Contact
+
+resbazaz\@gmail.com
+
+twitter.com/resbazaz
