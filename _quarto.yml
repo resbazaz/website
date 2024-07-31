@@ -11,10 +11,29 @@ website:
         text: Home
       - href: index.qmd#events
         text: Events
-      # - href: resbaz/resbazTucson2024.qmd
-      #  text: ResBaz 2024
+      - sidebar:festivals
       # - href: whoWeAre.qmd
       #  text: Who We Are
+  sidebar:
+    - id: festivals
+      title: "Festivals"
+      style: "docked"
+      collapse-level: 2
+      contents: 
+        - href: resbaz/resbazTucson2024.qmd
+          text: "Tucson 2024"
+        - href: resbaz/Arizona2023.qmd
+          text: "Arizona 2023"
+        - href: resbaz/resbazTucson2022.qmd
+          text: "Tucson 2022"
+        - href: resbaz/resbazTucson2021.qmd
+          text: "Tucson 2021"
+        - href: resbaz/resbazTucson2020.qmd
+          text: "Tucson 2020"
+        - href: resbaz/resbazTucson2019.qmd
+          text: "Tucson 2019"
+        - href: resbaz/resbazTucson2018.qmd
+          text: "Tucson 2018"
   body-footer: |
     ::: {.footer}
       ![ResBaz Logo](/img/logos/ResBazAZrectanglelogo-small.png) \
