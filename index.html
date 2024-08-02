@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ResBaz Arizona - Research Bazaar Arizona</title>
+<title>Research Bazaar Arizona – ResBaz Arizona</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -140,7 +140,7 @@ background-size: cover;
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -153,9 +153,44 @@ background-size: cover;
     <a class="nav-link" href="./index.html#events"> 
 <span class="menu-text">Events</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-festivals" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Festivals</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-festivals">    
+        <li>
+    <a class="dropdown-item" href="./resbaz/resbazTucson2024.html">
+ <span class="dropdown-text">Tucson 2024</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resbaz/Arizona2023.html">
+ <span class="dropdown-text">Arizona 2023</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resbaz/resbazTucson2022.html">
+ <span class="dropdown-text">Tucson 2022</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resbaz/resbazTucson2021.html">
+ <span class="dropdown-text">Tucson 2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resbaz/resbazTucson2020.html">
+ <span class="dropdown-text">Tucson 2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resbaz/resbazTucson2019.html">
+ <span class="dropdown-text">Tucson 2019</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resbaz/resbazTucson2018.html">
+ <span class="dropdown-text">Tucson 2018</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -199,7 +234,6 @@ background-size: cover;
   <li><a href="#resbaz-festival" id="toc-resbaz-festival" class="nav-link" data-scroll-target="#resbaz-festival">ResBaz Festival</a></li>
   <li><a href="#related-community-events" id="toc-related-community-events" class="nav-link" data-scroll-target="#related-community-events">Related Community Events</a></li>
   </ul></li>
-  <li><a href="#previous-resbaz-festivals" id="toc-previous-resbaz-festivals" class="nav-link" data-scroll-target="#previous-resbaz-festivals">Previous ResBaz Festivals</a></li>
   </ul>
 </nav>
     </div>
@@ -334,22 +368,10 @@ background-size: cover;
 <li>Connect with UXers in Tucson and beyond</li>
 </ul>
 <p><a href="https://uxua.arizona.edu/">More Info</a></p>
-</section>
-</section>
-</section>
-<section id="previous-resbaz-festivals" class="level2">
-<h2 class="anchored" data-anchor-id="previous-resbaz-festivals">Previous ResBaz Festivals</h2>
-<ul>
-<li><a href="./resbaz/resbazTucson2024.html">Tucson 2024 festival</a></li>
-<li><a href="./resbaz/Arizona2023.html">Arizona 2023 festival</a></li>
-<li><a href="./resbaz/resbazTucson2022.html">Tucson 2022 festival</a></li>
-<li><a href="./resbaz/resbazTucson2021.html">Tucson 2021 festival</a></li>
-<li><a href="./resbaz/resbazTucson2020.html">Tucson 2020 festival</a></li>
-<li><a href="./resbaz/resbazTucson2019.html">Tucson 2019 festival</a></li>
-<li><a href="./resbaz/resbazTucson2018.html">Tucson 2018 festival</a></li>
-</ul>
 
 
+</section>
+</section>
 </section>
 
 <div class="footer">
@@ -402,18 +424,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -445,7 +456,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/researchbazaar\.arizona\.edu");
@@ -453,7 +486,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -777,30 +810,37 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
     }
-  });
-
-};
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
           </script>
 
 
