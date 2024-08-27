@@ -2,7 +2,7 @@
 
 ### Technologies used:
 
-- [Quarto](https://nodejs.org/)
+- [Quarto](https://quarto.org/)
 
 ## Getting Started
 
