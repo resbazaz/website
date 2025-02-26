@@ -19,7 +19,9 @@ website:
       title: "Festivals"
       style: "docked"
       collapse-level: 2
-      contents: 
+      contents:
+        - href: resbaz/resbazTucson2025.qmd
+          text: "Tucson 2025"
         - href: resbaz/resbazTucson2024.qmd
           text: "Tucson 2024"
         - href: resbaz/Arizona2023.qmd
