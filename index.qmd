@@ -16,7 +16,7 @@ import { randomAvatars } from './components/randomAvatars.ojs';
 
 ## What we do
 
-_Need help now? Want to talk? Go post in our Gitter: [resbaz/Arizona](https://gitter.im/resbaz/Arizona)_
+_The ResBaz Arizona community is most active on Slack. [Join us!](https://resbazaz.slack.com/signup)_
 
 ### Everyone is welcome
 
