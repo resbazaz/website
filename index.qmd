@@ -32,9 +32,11 @@ Meet new people in and outside of your field. Join our supportive network of dat
 
 ## Events
 
+::: {.content-hidden}
 _Stay up to date on announcements at our Twitter: [@ResBazAZ](https://twitter.com/ResBazAZ)_
 
 _(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com/ResBazAZ/)_
+:::
 
 ### Coffee and Code
 
