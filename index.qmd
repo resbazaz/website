@@ -16,7 +16,7 @@ import { randomAvatars } from './components/randomAvatars.ojs';
 
 ## What we do
 
-_The ResBaz Arizona community is most active on Slack. [Join us!](https://resbazaz.slack.com/signup)_
+_The ResBaz Arizona community is most active on Slack. [Join us!](https://resbazaz.slack.com/signup) If you don't have an email address from `arizona.edu`, `nau.edu`, or `uab.edu`, attend one of our in person gatherings or join our Meetup group for an invite _
 
 ### Everyone is welcome
 
@@ -34,9 +34,10 @@ Meet new people in and outside of your field. Join our supportive network of dat
 
 ::: {.content-hidden}
 _Stay up to date on announcements at our Twitter: [@ResBazAZ](https://twitter.com/ResBazAZ)_
+:::
 
 _(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com/ResBazAZ/)_
-:::
+
 
 ### Coffee and Code
 
