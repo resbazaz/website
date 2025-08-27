@@ -16,7 +16,7 @@ import { randomAvatars } from './components/randomAvatars.ojs';
 
 ## What we do
 
-_The ResBaz Arizona community is most active on Slack. [Join us!](https://resbazaz.slack.com/signup) If you don't have an email address from `arizona.edu`, `nau.edu`, or `uab.edu`, attend one of our in person gatherings or join our Meetup group for an invite _
+_The ResBaz Arizona community is most active on Slack. [Join us!](https://resbazaz.slack.com/signup) If you don't have an email address from one of the domains listed on the signup page, attend one of our in person gatherings, join our Meetup group, or fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdTlPYDRXX_bbDfdTkGk3w_X_xfgYuIxpvrb93pn1OzXv14cw/viewform) for an invite _
 
 ### Everyone is welcome
 
