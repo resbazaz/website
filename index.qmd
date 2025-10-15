@@ -127,7 +127,7 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 
 The Global WiDS Conference aims to inspire and educate data scientists worldwide, regardless of gender, and to support women in the field. This one-day technical conference provides an opportunity to hear about the latest data science related research and applications in a number of domains, and connect with others in the field.
 
-[More Info](https://widstucson.org/)
+[More Info](https://wids-tucson.github.io/)
 
 #### Tucson Python Meetup
 
