@@ -4,6 +4,7 @@ title: ResBaz Arizona
 css: /styles/festivalPages.css
 aliases:
   - resbazArizona2024
+  - resbazTucson2024
 ---
 
 <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>

@@ -4,6 +4,7 @@ title: ResBaz Arizona
 css: /styles/festivalPages.css
 aliases:
   - resbazArizona2025
+  - resbazTucson2025
 ---
 
 <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
@@ -93,7 +94,7 @@ We are committed to making this workshop accessible to everybody. For any accomm
 
 ## Previous years
 
-- [ResBaz Tucson 2024](/resbaz/Arizona2024.qmd)
+- [ResBaz Tucson 2024](/resbaz/resbazTucson2024.qmd)
 - [ResBaz Arizona 2023](/resbaz/Arizona2023.qmd)
 - [ResBaz Tucson 2022](/resbaz/resbazTucson2022.qmd)
 - [ResBaz Tucson 2021](/resbaz/resbazTucson2021.qmd)
