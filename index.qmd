@@ -102,7 +102,7 @@ randomAvatars("Hacky Hour");
 **A few people you're likely to see**:
 
 ```{ojs}
-randomAvatars("Festival2024");
+randomAvatars("festival-2026");
 ```
 
 :::
