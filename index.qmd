@@ -95,16 +95,14 @@ randomAvatars("Hacky Hour");
 
 **Where**: Tucson, Arizona
 
-**When**: May 29, 2025
+**When**: 14–16 May 2026
 
 **What**: Learn, Network, Teach, Help, and Discuss are just a few of the availble things to do at ResBaz. Use the festival to add organizing events or presenting technical workshops to your resume, or simply attend and pick up a new data science trick, the choice is all yours!
-
-[Register now!](https://tinyurl.com/ResBaz25Register)
 
 **A few people you're likely to see**:
 
 ```{ojs}
-randomAvatars("Festival2024");
+randomAvatars("festival-2026");
 ```
 
 :::

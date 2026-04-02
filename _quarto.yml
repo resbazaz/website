@@ -20,6 +20,8 @@ website:
       style: "docked"
       collapse-level: 2
       contents:
+        - href: resbaz/resbazTucson2026.qmd
+          text: "Tucson 2026"
         - href: resbaz/resbazTucson2025.qmd
           text: "Tucson 2025"
         - href: resbaz/resbazTucson2024.qmd
