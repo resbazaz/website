@@ -4,30 +4,31 @@
       "teams": {
         "nodes": [
           {
-            "name": "Website Team",
+            "name": "Coffee and Code",
             "members": {
               "nodes": [
                 { "id": "MDQ6VXNlcjc0MjYzMw==" },
                 { "id": "MDQ6VXNlcjEyMTU4NzM=" },
-                { "id": "MDQ6VXNlcjE5Mzk4MTM=" },
-                { "id": "MDQ6VXNlcjcwODIwMjU=" },
-                { "id": "MDQ6VXNlcjExMDIzMzE3" },
-                { "id": "MDQ6VXNlcjEyMDIyMDc2" },
+                { "id": "MDQ6VXNlcjEyNjkxOTE4" },
                 { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjM4OTYyMjQz" },
+                { "id": "MDQ6VXNlcjI1NDA0Nzgz" },
                 { "id": "U_kgDOBef8kg" }
               ]
             }
           },
           {
-            "name": "Governance Task Force",
+            "name": "Festival 2026",
             "members": {
               "nodes": [
                 { "id": "MDQ6VXNlcjc0MjYzMw==" },
                 { "id": "MDQ6VXNlcjEyMTU4NzM=" },
+                { "id": "MDQ6VXNlcjE5Mzk4MTM=" },
+                { "id": "MDQ6VXNlcjU0MzEyMzc=" },
+                { "id": "MDQ6VXNlcjY5NDcwODk=" },
+                { "id": "MDQ6VXNlcjExMDIzMzE3" },
+                { "id": "MDQ6VXNlcjEyNjkxOTE4" },
                 { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjU2NzAyNjAw" },
-                { "id": "U_kgDOBef8kg" }
+                { "id": "U_kgDOBjZ59w" }
               ]
             }
           },
@@ -47,8 +48,28 @@
                 { "id": "MDQ6VXNlcjQ2NjEyOTMz" },
                 { "id": "MDQ6VXNlcjY4NDAzMzQw" },
                 { "id": "U_kgDOBef8kg" },
-                { "id": "U_kgDOBewVSw" },
-                { "id": "U_kgDOCR6ywQ" }
+                { "id": "U_kgDOBewVSw" }
+              ]
+            }
+          },
+          {
+            "name": "GitHub Admins",
+            "members": {
+              "nodes": [
+                { "id": "MDQ6VXNlcjc0MjYzMw==" },
+                { "id": "U_kgDOBef8kg" }
+              ]
+            }
+          },
+          {
+            "name": "Governance Task Force",
+            "members": {
+              "nodes": [
+                { "id": "MDQ6VXNlcjc0MjYzMw==" },
+                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
+                { "id": "MDQ6VXNlcjIxMTI5NjM5" },
+                { "id": "MDQ6VXNlcjU2NzAyNjAw" },
+                { "id": "U_kgDOBef8kg" }
               ]
             }
           },
@@ -57,20 +78,24 @@
             "members": {
               "nodes": [
                 { "id": "MDQ6VXNlcjc0MjYzMw==" },
+                { "id": "MDQ6VXNlcjEyMTU4NzM=" },
                 { "id": "MDQ6VXNlcjY5NDcwODk=" },
                 { "id": "MDQ6VXNlcjEyNjkxOTE4" }
               ]
             }
           },
           {
-            "name": "Coffee and Code",
+            "name": "Website Team",
             "members": {
               "nodes": [
                 { "id": "MDQ6VXNlcjc0MjYzMw==" },
                 { "id": "MDQ6VXNlcjEyMTU4NzM=" },
-                { "id": "MDQ6VXNlcjEyNjkxOTE4" },
+                { "id": "MDQ6VXNlcjE5Mzk4MTM=" },
+                { "id": "MDQ6VXNlcjcwODIwMjU=" },
+                { "id": "MDQ6VXNlcjExMDIzMzE3" },
+                { "id": "MDQ6VXNlcjEyMDIyMDc2" },
                 { "id": "MDQ6VXNlcjIxMTI5NjM5" },
-                { "id": "MDQ6VXNlcjI1NDA0Nzgz" },
+                { "id": "MDQ6VXNlcjM4OTYyMjQz" },
                 { "id": "U_kgDOBef8kg" }
               ]
             }
@@ -84,9 +109,30 @@
             "name": "Julian Pistorius",
             "login": "julianpistorius",
             "bio": "Organic Software Gardener 🍅",
-            "company": "Exosphere Project",
+            "company": "Indiana University & Exosphere Project",
             "avatarUrl": "https://avatars.githubusercontent.com/u/742633?u=204cc5138bfb07ef7332d3fa1d885bbbbe9e7281&v=4",
-            "socialAccounts": { "edges": [] }
+            "socialAccounts": {
+              "edges": [
+                {
+                  "node": {
+                    "provider": "LINKEDIN",
+                    "url": "https://linkedin.com/in/julianpistorius"
+                  }
+                },
+                {
+                  "node": {
+                    "provider": "TWITTER",
+                    "url": "https://x.com/jpistorius"
+                  }
+                },
+                {
+                  "node": {
+                    "provider": "GENERIC",
+                    "url": "https://gitlab.com/julianpistorius"
+                  }
+                }
+              ]
+            }
           },
           {
             "id": "MDQ6VXNlcjEyMTU4NzM=",
@@ -113,23 +159,14 @@
             "bio": "",
             "company": "University of Arizona",
             "avatarUrl": "https://avatars.githubusercontent.com/u/1939813?u=d39a4cac18c94ef60a298c2ad5fa82bb73fc30c3&v=4",
-            "socialAccounts": {
-              "edges": [
-                {
-                  "node": {
-                    "provider": "TWITTER",
-                    "url": "https://twitter.com/jcoliverAZ"
-                  }
-                }
-              ]
-            }
+            "socialAccounts": { "edges": [] }
           },
           {
             "id": "MDQ6VXNlcjM4ODMyNDE=",
             "name": "Soham Pal",
             "login": "e-eight",
-            "bio": "Computing Sciences Researcher II at The University of Arizona.",
-            "company": "The University of Arizona",
+            "bio": "Research Computing & Data Facilitator at NCSA",
+            "company": "National Center for Supercomputing Applications, UIUC",
             "avatarUrl": "https://avatars.githubusercontent.com/u/3883241?u=bb818aa9153eb92f57ae7b878a39faed4988f025&v=4",
             "socialAccounts": {
               "edges": [
@@ -138,14 +175,29 @@
                     "provider": "TWITTER",
                     "url": "https://twitter.com/dragonbornmonk"
                   }
+                },
+                {
+                  "node": {
+                    "provider": "GENERIC",
+                    "url": "https://codeberg.org/e-eight"
+                  }
                 }
               ]
             }
           },
           {
+            "id": "MDQ6VXNlcjU0MzEyMzc=",
+            "name": "Dennis Snell",
+            "login": "dmsnell",
+            "bio": "As a software design engineer at Automattic, I try and make the web a better place. My repositories are mostly code for the sake of learning and exploring.",
+            "company": "Automattic, Inc.",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5431237?v=4",
+            "socialAccounts": { "edges": [] }
+          },
+          {
             "id": "MDQ6VXNlcjY2MTczMzI=",
             "name": "Meghan Balk",
-            "login": "megbalk",
+            "login": "meghalithic",
             "bio": "",
             "company": "Natural History Museum, University of Oslo",
             "avatarUrl": "https://avatars.githubusercontent.com/u/6617332?u=3836c3ffa014b36b188f4f45297f26461fb39a67&v=4",
@@ -155,15 +207,15 @@
             "id": "MDQ6VXNlcjY5NDcwODk=",
             "name": "Ryan Bartelme",
             "login": "rbartelme",
-            "bio": "Staff Data Scientist in biotechnology research and development",
-            "company": "Accelerate Diagnostics",
+            "bio": "Bioinformatician and Data Scientist in biotechnology research and development",
+            "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/6947089?u=9cc0c86dc9db92eb4358b6b9643b79db33b279f2&v=4",
             "socialAccounts": {
               "edges": [
                 {
                   "node": {
-                    "provider": "TWITTER",
-                    "url": "https://twitter.com/MicrobialBart"
+                    "provider": "BLUESKY",
+                    "url": "https://bsky.app/profile/microbialbart.bsky.social"
                   }
                 }
               ]
@@ -192,18 +244,9 @@
             "name": "Adriana Picoral",
             "login": "picoral",
             "bio": "",
-            "company": "University of Arizona",
+            "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/10335479?u=b9414a8cb122c29d6c8544baea85a84c6baab939&v=4",
-            "socialAccounts": {
-              "edges": [
-                {
-                  "node": {
-                    "provider": "TWITTER",
-                    "url": "https://twitter.com/adrianapicoral"
-                  }
-                }
-              ]
-            }
+            "socialAccounts": { "edges": [] }
           },
           {
             "id": "MDQ6VXNlcjExMDIzMzE3",
@@ -218,7 +261,7 @@
             "id": "MDQ6VXNlcjExNTI3MDQx",
             "name": "Tyson L. Swetnam",
             "login": "tyson-swetnam",
-            "bio": "Director of Open Science & Associate Professor at the University of Arizona, Institute for Computation and Data Enabled Insight ",
+            "bio": "Director of Open Science & Associate Professor at the University of Arizona\r\n",
             "company": "University of Arizona, CyVerse",
             "avatarUrl": "https://avatars.githubusercontent.com/u/11527041?u=2cefefd17d2dc2ec8243b7a1f53a620f1fde2ff4&v=4",
             "socialAccounts": {
@@ -242,8 +285,8 @@
             "id": "MDQ6VXNlcjEyMDIyMDc2",
             "name": "Jessica Guo",
             "login": "jessicaguo",
-            "bio": "",
-            "company": "University of Arizona,  CCT Data Science",
+            "bio": "Assistant Professor of Climate/Biology interested in plant responses to climate change. Formerly a data scientist/trainer at UArizona. ",
+            "company": "Harvey Mudd College",
             "avatarUrl": "https://avatars.githubusercontent.com/u/12022076?u=377f60f40b83a81b1e57ef8518406bc38ce6748f&v=4",
             "socialAccounts": {
               "edges": [
@@ -269,7 +312,7 @@
             "id": "MDQ6VXNlcjE5ODIxMTcx",
             "name": "Laura W. Dozal",
             "login": "lwdozal",
-            "bio": "PhD Student at the University of Arizona's School of Information",
+            "bio": "PhD Candidate at the University of Arizona's School of Information",
             "company": null,
             "avatarUrl": "https://avatars.githubusercontent.com/u/19821171?u=3cca330b757c209c3c1547844a3ad81508304b58&v=4",
             "socialAccounts": { "edges": [] }
@@ -297,7 +340,7 @@
             "name": "Heidi Steiner",
             "login": "hidyverse",
             "bio": "",
-            "company": "University of Arizona",
+            "company": "@Boehringer-Ingelheim",
             "avatarUrl": "https://avatars.githubusercontent.com/u/21129639?u=f02dbb9a9ecfad325fa0ead8378f8d77f9150012&v=4",
             "socialAccounts": { "edges": [] }
           },
@@ -353,8 +396,8 @@
             "id": "MDQ6VXNlcjM0NDY2OTQx",
             "name": "Sarah Stueve",
             "login": "sarahstueve",
-            "bio": "",
-            "company": "University of Arizona's iSchool",
+            "bio": "PhD Candidate, NLP + Computational Social Science at UArizona | Posit Data Science Academy Mentor. Python devotee, R user on the side ",
+            "company": "University of Arizona College of Information Science",
             "avatarUrl": "https://avatars.githubusercontent.com/u/34466941?u=c00f55a3718179e6d8e73acf75d18f3373a59da9&v=4",
             "socialAccounts": { "edges": [] }
           },
@@ -414,10 +457,10 @@
           },
           {
             "id": "MDQ6VXNlcjQ3NzY2MDc0",
-            "name": "Drake Asberry",
-            "login": "drakeasberry",
+            "name": "Dafni \"Dee\" Drake",
+            "login": "dafnidrake",
             "bio": "",
-            "company": "GSA",
+            "company": "SAIC",
             "avatarUrl": "https://avatars.githubusercontent.com/u/47766074?u=6e52d4344ed85cd5c8b5e873ec28f1d5e74907e9&v=4",
             "socialAccounts": { "edges": [] }
           },
@@ -426,18 +469,9 @@
             "name": "Lia Ossanna",
             "login": "lossanna",
             "bio": "",
-            "company": "University of Arizona",
+            "company": "Jornada Experimental Range",
             "avatarUrl": "https://avatars.githubusercontent.com/u/56702600?u=03ece3573c51cb41e21197f7c2071d122d5e25a8&v=4",
-            "socialAccounts": {
-              "edges": [
-                {
-                  "node": {
-                    "provider": "TWITTER",
-                    "url": "https://twitter.com/LiaOssanna"
-                  }
-                }
-              ]
-            }
+            "socialAccounts": { "edges": [] }
           },
           {
             "id": "MDQ6VXNlcjYxMzI5OTE2",
@@ -452,19 +486,10 @@
             "id": "MDQ6VXNlcjY4NDAzMzQw",
             "name": "Emma Reich",
             "login": "egreich",
-            "bio": "PhD Student in Ecological and Environmental Informatics,\r\nSchool of Informatics, Computing, and Cyber Systems\r\n    \r\n\r\n",
-            "company": "Northern Arizona University",
+            "bio": "Ecological and Environmental Informatics Scientist | Bridging science, code, & communication",
+            "company": "Caltech",
             "avatarUrl": "https://avatars.githubusercontent.com/u/68403340?u=d3e846be891006b37a7aae3b74c7ecde9d0ab6fd&v=4",
-            "socialAccounts": {
-              "edges": [
-                {
-                  "node": {
-                    "provider": "TWITTER",
-                    "url": "https://twitter.com/ecophys_emma"
-                  }
-                }
-              ]
-            }
+            "socialAccounts": { "edges": [] }
           },
           {
             "id": "MDQ6VXNlcjcyOTQwMjg2",
@@ -503,12 +528,12 @@
             "socialAccounts": { "edges": [] }
           },
           {
-            "id": "U_kgDOCR6ywQ",
-            "name": "Ethan Jahn",
-            "login": "ejahnUA",
+            "id": "U_kgDOBjZ59w",
+            "name": "Julian Gonzalez",
+            "login": "Juli4nG",
             "bio": "",
-            "company": "University of Arizona",
-            "avatarUrl": "https://avatars.githubusercontent.com/u/153006785?u=d14316c1567ab29135738cc82d41d37607b9963f&v=4",
+            "company": "Avante Logic",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/104233463?u=6ff276e0a9480952a9864f03823f060ae5a6def2&v=4",
             "socialAccounts": { "edges": [] }
           }
         ]
