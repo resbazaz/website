@@ -5,6 +5,7 @@ css: /styles/festivalPages.css
 aliases:
   - resbazArizona2026
   - resbazTucson2026
+  - /2026
 ---
 
 ```{=html}
