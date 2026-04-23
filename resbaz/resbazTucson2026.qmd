@@ -16,7 +16,7 @@ aliases:
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2026, events are happening at university campuses around the globe.
 
-ResBaz Arizona is a free festival happening **May 14–16 2026** where researchers and community members come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
+ResBaz Arizona is a free festival happening **May 14–15 2026** where researchers and community members come together to up-skill in "next generation digital research tools and skills." In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
 
 **Who should attend?** Faculty, students, and science enthusiasts from any (or no) research organization are welcome. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
@@ -26,30 +26,37 @@ ResBaz Arizona is a free festival happening **May 14–16 2026** where researche
 
 ### General schedule
 
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Date                 | Time          |                                                                                                                                                                   |
-+======================+===============+===================================================================================================================================================================+
-| **Thursday, May 14** | **4:00–6:00** | [**Hacky Hour**](/index.qmd#hacky-hour)                                                                                                                           |
-|                      |               |                                                                                                                                                                   |
-|                      |               | Snakes & Lattes\                                                                                                                                                  |
-|                      |               | 988 E University Blvd, Tucson, AZ ([map](https://www.openstreetmap.org/node/13062971951))                                                                         |
-|                      |               |                                                                                                                                                                   |
-|                      |               | Special kick-off of our regular weekly event                                                                                                                      |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Friday, May 15       | 9:00–9:30     | Welcome                                                                                                                                                           |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                      | 9:30–10:30    | Expert Panel: What does "rigor" mean? How do you go about checking for it?                                                                                        |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                      | 10:30–12:00   | Unconference Bazaar: Lightning talks & Birds of a Feather                                                                                                         |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                      | 12:00–2:00    | Lunch break                                                                                                                                                       |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                      | 2:00–4:00     | [Catalyst Maker Studio](https://lib.arizona.edu/study/spaces/maker-studio) tour & fact-checking / literature review scavenger hunt deep into the library's stacks |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                      | 4:00–5:00     | Regroup to share discoveries                                                                                                                                      |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Saturday, May 16     | 9:00–5:00     | Help-a-thon: get hands-on research experience with data and code, and/or bring your own research project!                                                         |
-+----------------------+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+| Date             | Time        |                                                                                                                                    |
++==================+=============+====================================================================================================================================+
+| Thursday, May 14 | 9:00–9:30   | Welcome                                                                                                                            |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 9:30–10:30  | **Expert Panel**\                                                                                                                  |
+|                  |             | *What does "rigor" mean? How do you go about checking for it?*                                                                     |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 10:30–10:45 | *Coffee break*                                                                                                                     |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 10:45–11:30 | **Lightning talks**                                                                                                                |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 11:30–12:00 | **Birds of a Feather**                                                                                                             |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 12:00–12:15 | Scavenger hunt team assignment                                                                                                     |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 12:15–2:00  | *Lunch break*                                                                                                                      |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 2:00–4:00   | Parallel:\                                                                                                                         |
+|                  |             | · Fact-checking / literature review **scavenger hunt** into the library's stacks\                                                  |
+|                  |             | · [Catalyst **Maker Studio**](https://lib.arizona.edu/study/spaces/maker-studio) **tour** (teams assigned to 30 minute tour slots) |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|                  | 4:00–6:00   | Regroup at [**Hacky Hour**](/index.qmd#hacky-hour) to share discoveries                                                            |
+|                  |             |                                                                                                                                    |
+|                  |             | Snakes & Lattes\                                                                                                                   |
+|                  |             | 988 E University Blvd, Tucson, AZ ([map](https://www.openstreetmap.org/node/13062971951))                                          |
+|                  |             |                                                                                                                                    |
+|                  |             | Special kick-off of our regular weekly event                                                                                       |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+| Friday, May 15   | 9:00–5:00   | Help-a-thon: get hands-on research experience with data and code, and/or bring your own research project!                          |
++------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Accessibility
 
