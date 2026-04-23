@@ -5,6 +5,9 @@
   gap: 1em;
   a {
     text-decoration: none !important;
+    img {
+      max-height: 4em;
+    }
   }
   img {
     max-height: 4em;
