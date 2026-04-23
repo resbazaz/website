@@ -66,11 +66,11 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
 
 ```{=html}
 <div class="sponsor-logos">
-  <a class="block-a" href="https://www.arizona.edu" title="University of Arizona">
-    <img src="/img/logos/block_a.svg"/>
-  </a>
 
   <div class="ua-groups">
+    <a class="block-a" href="https://www.arizona.edu" title="University of Arizona">
+      <img src="/img/logos/block_a.svg"/>
+    </a>
     <a href="https://lib.arizona.edu" title="University Libraries">
       <img src="/img/logos/ua_libraries.svg" style="height:1.25em"/>
     </a>
@@ -80,7 +80,7 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
     <img src="/img/logos/origraph.svg"/>
   </a>
 
-  <img src="/img/logos/informaticEdge.svg"/>
+  <img src="/img/logos/informaticEdge.svg" title="Informatic Edge"/>
   
 </div>
 ```
