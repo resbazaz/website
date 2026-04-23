@@ -1,6 +1,8 @@
 ---
 title: "ResBaz AZ 2018"
-editor: visual
+aliases:
+  - resbazTucson2018
+  - /2018
 ---
 
 # **About**

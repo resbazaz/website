@@ -3,6 +3,7 @@ layout: default
 title: ResBaz Arizona
 aliases:
   - resbazTucson2021
+  - /2021
 ---
 
 ## What

@@ -5,6 +5,7 @@ css: /styles/festivalPages.css
 aliases:
   - resbazArizona2025
   - resbazTucson2025
+  - /2025
 ---
 
 <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
