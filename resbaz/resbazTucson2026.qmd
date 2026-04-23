@@ -20,9 +20,11 @@ ResBaz Arizona is a free festival happening **May 14–15 2026** where researche
 
 **Who should attend?** Faculty, students, and science enthusiasts from any (or no) research organization are welcome. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
-### 2026 Theme: Do Your Own Research
+## 2026 Theme: Do Your Own Research
 
-*When dealing with potential AI hallucinations, errors, or misinformation, **how are your fact-checking skills?***
+When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*how are your fact-checking skills?*]{.text-primary .h3}
+
+[![](/img/2026_theme.svg "XKCD: Wikipedian Protester"){fig-alt="A cartoon depicting a protester, holding up a sign that says \"citation needed\"" fig-align="right" width="587"}](https://xkcd.com/285/)
 
 ### Schedule
 
@@ -74,6 +76,9 @@ ResBaz Arizona is a free festival happening **May 14–15 2026** where researche
     </a>
   </div>
 
+  <a href="https://origraph.net" title="Origraph">
+    <img src="/img/logos/origraph.svg"/>
+  </a>
   
 </div>
 ```
