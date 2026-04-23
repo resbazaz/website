@@ -9,6 +9,9 @@
       max-height: 4em;
     }
   }
+  img {
+    max-height: 4em;
+  }
 
   .block-a {
     padding-right: 1em;
