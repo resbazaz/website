@@ -79,6 +79,8 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
   <a href="https://origraph.net" title="Origraph">
     <img src="/img/logos/origraph.svg"/>
   </a>
+
+  <img src="/img/logos/informaticEdge.svg"/>
   
 </div>
 ```
