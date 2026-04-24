@@ -81,6 +81,18 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
   </a>
 
   <img src="/img/logos/informaticEdge.svg" title="Informatic Edge"/>
+
+  <a href="https://bespokeci.dev" title="Bespoke CI">
+    <img src="/img/logos/bespoke_ci.svg"/>
+  </a>
+
+  <a href="https://opencollective.com/exosphere-foundation" title="The Exosphere Foundation">
+    <img src="/img/logos/exosphere.png"/>
+  </a>
+
+  <a href="https://www.jernigan.ai" title="The Exosphere Foundation">
+    <img src="/img/logos/jernigan_data_science.jpg"/>
+  </a>
   
 </div>
 ```
