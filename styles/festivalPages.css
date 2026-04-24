@@ -3,6 +3,7 @@
   align-items: stretch;
   min-height: 4em;
   gap: 1em;
+  flex-wrap: wrap;
   a {
     text-decoration: none !important;
     img {
@@ -24,7 +25,6 @@
     display: flex;
     align-items: center;
     gap: 1em;
-    flex-wrap: wrap;
   }
 }
 
