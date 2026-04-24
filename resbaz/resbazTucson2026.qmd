@@ -66,7 +66,6 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
 
 ```{=html}
 <div class="sponsor-logos">
-
   <div class="ua-groups">
     <a class="block-a" href="https://www.arizona.edu" title="University of Arizona">
       <img src="/img/logos/block_a.svg"/>
@@ -87,13 +86,12 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
   </a>
 
   <a href="https://opencollective.com/exosphere-foundation" title="The Exosphere Foundation">
-    <img src="/img/logos/exosphere.png"/>
+    <img src="/img/logos/exosphere.svg"/>
   </a>
 
   <a href="https://www.jernigan.ai" title="The Exosphere Foundation">
     <img src="/img/logos/jernigan_data_science.jpg"/>
   </a>
-  
 </div>
 ```
 
