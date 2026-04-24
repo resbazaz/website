@@ -34,4 +34,4 @@ University of Arizona, ENR2
 
 ## Register
 
-<a href="https://forms.gle/bdg4t8Bzg9FTJPYn7" class="button" target="_blank">Register your interest here</a>
+<a href="https://forms.gle/bdg4t8Bzg9FTJPYn7" class="button" target="_blank" rel="noopener noreferrer">Register your interest here</a>

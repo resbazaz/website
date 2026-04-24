@@ -20,6 +20,8 @@ ResBaz Arizona is a free festival happening **May 14–15 2026** where researche
 
 **Who should attend?** Faculty, students, and science enthusiasts from any (or no) research organization are welcome. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
+<a class="btn btn2022" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeivt4M7pgTZyYMwz_YMdyRAiAtHAJb_eyy2AsygolOiSxy-g/viewform?usp=publish-editor">Register</a>
+
 ## 2026 Theme: Do Your Own Research
 
 When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*how are your fact-checking skills?*]{.text-primary .h3}
