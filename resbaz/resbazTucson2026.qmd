@@ -113,6 +113,10 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
   <a href="https://www.jernigan.ai" title="Jernigan Data Science">
     <img src="/img/logos/jernigan_data_science.jpg"/>
   </a>
+
+  <a href="https://www.analyticalmineset.com" title="Analytical Mineset">
+    <img src="/img/logos/analytical_mineset.png"/>
+  </a>
 </div>
 ```
 
