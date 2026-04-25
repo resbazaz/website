@@ -1,25 +1,20 @@
 .sponsor-logos {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   min-height: 4em;
   gap: 1em;
   flex-wrap: wrap;
   a {
     text-decoration: none !important;
-    img {
-      max-height: 4em;
-    }
   }
   img {
     max-height: 4em;
+    max-width: 10em;
   }
 
   .block-a {
     padding-right: 1em;
     border-right: 1px solid #00275b;
-    img {
-      height: 4em;
-    }
   }
   .ua-groups {
     display: flex;
