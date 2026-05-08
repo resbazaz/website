@@ -14,6 +14,45 @@ import { randomAvatars } from './components/randomAvatars.ojs';
 ```
 
 
+```{=html}
+<style>
+  .btn {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: var(--bs-primary);
+    color: white;
+    padding: 1em 3em;
+  }
+  .btn:hover {
+    background-color: #ed6f45;
+    color: white;
+    box-shadow: #f8a98e 1em 1em 6em 0;
+    transition: box-shadow 0.5s ease;
+  }
+  .register-btn-wrapper {
+    margin-top: -1em;
+    position: relative;
+    height: 1em;
+    text-align: right;
+  }
+  .hero-btn-wrapper {
+    position: absolute;
+    top: 5em;
+    right: 2em;
+  }
+  .hero-btn-wrapper .btn:not(:hover) {
+    box-shadow: var(--bs-btn-color) 1em 1em 4em 0;
+  }
+</style>
+```
+
+::: hero-btn-wrapper
+<a class="btn" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeivt4M7pgTZyYMwz_YMdyRAiAtHAJb_eyy2AsygolOiSxy-g/viewform">Register for ResBaz 2026</a>
+:::
+
+
 ## What we do
 
 _The ResBaz Arizona community is most active on Slack. [Join us!](https://resbazaz.slack.com/signup) If you don't have an email address from one of the domains listed on the signup page, attend one of our in person gatherings, join our Meetup group, or fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdTlPYDRXX_bbDfdTkGk3w_X_xfgYuIxpvrb93pn1OzXv14cw/viewform) for an invite _
@@ -91,6 +130,10 @@ randomAvatars("Hacky Hour");
 ::::: {.split-section}
 
 ::: {.split-chunk}
+
+::: register-btn-wrapper
+<a class="btn" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeivt4M7pgTZyYMwz_YMdyRAiAtHAJb_eyy2AsygolOiSxy-g/viewform">Register Here!</a>
+:::
 
 **Where**: Tucson, Arizona
 
