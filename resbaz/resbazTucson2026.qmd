@@ -14,6 +14,7 @@ aliases:
 
 <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
 
+```{=html}
 <style>
   .btn {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -28,6 +29,7 @@ aliases:
     text-align: center;
   }
 </style>
+```
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2026, events are happening at university campuses around the globe.
 
@@ -35,10 +37,8 @@ ResBaz Arizona is a free festival happening **May 14–15 2026** where researche
 
 **Who should attend?** Faculty, students, and science enthusiasts from any (or no) research organization are welcome. PhD and research master's students are especially encouraged to attend. Research technologists who support researchers to do their job should also come along!
 
-::: {.btn-wrapper}
-
+::: btn-wrapper
 <a class="btn" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeivt4M7pgTZyYMwz_YMdyRAiAtHAJb_eyy2AsygolOiSxy-g/viewform">Register</a>
-
 :::
 
 ## 2026 Theme: Do Your Own Research
@@ -115,7 +115,7 @@ When dealing with potential AI hallucinations, errors, or misinformation,<br/>[*
   </a>
 
   <a href="https://www.analyticalmineset.com" title="Analytical Mineset">
-    <img src="/img/logos/analytical_mineset.png"/>
+    <img src="/img/logos/analytical_mineset.svg"/>
   </a>
 </div>
 ```
