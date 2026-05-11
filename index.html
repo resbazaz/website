@@ -266,39 +266,10 @@ background-size: cover;
 </div>
 </div>
 <style>
-  .btn {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 700;
-    background-color: var(--bs-primary);
-    color: white;
-    padding: 1em 3em;
-  }
-  .btn:hover {
-    background-color: #ed6f45;
-    color: white;
-    box-shadow: #f8a98e 1em 1em 6em 0;
-    transition: box-shadow 0.5s ease;
-  }
-  .register-btn-wrapper {
-    margin-top: -1em;
-    position: relative;
-    height: 1em;
-    text-align: right;
-  }
-  .hero-btn-wrapper {
-    position: absolute;
-    top: 5em;
-    right: 2em;
-  }
-  .hero-btn-wrapper .btn:not(:hover) {
-    box-shadow: var(--bs-btn-color) 1em 1em 4em 0;
+  .fade-out {
+    opacity: 0.25;
   }
 </style>
-<div class="hero-btn-wrapper">
-<p><a class="btn" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeivt4M7pgTZyYMwz_YMdyRAiAtHAJb_eyy2AsygolOiSxy-g/viewform">Register for ResBaz 2026</a></p>
-</div>
 <section id="what-we-do" class="level2">
 <h2 class="anchored" data-anchor-id="what-we-do">What we do</h2>
 <p><em>The ResBaz Arizona community is most active on Slack. <a href="https://resbazaz.slack.com/signup">Join us!</a> If you don’t have an email address from one of the domains listed on the signup page, attend one of our in person gatherings, join our Meetup group, or fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTlPYDRXX_bbDfdTkGk3w_X_xfgYuIxpvrb93pn1OzXv14cw/viewform">this form</a> for an invite </em></p>
@@ -329,7 +300,7 @@ background-size: cover;
 <p><strong>What</strong>: Whether you’re debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries – join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!</p>
 <p><strong>A few people you’re likely to see</strong>:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="96" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 95;"><span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Coffee and Code"</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="64" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 63;"><span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Coffee and Code"</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="expression">
 
@@ -348,7 +319,7 @@ background-size: cover;
 <p><strong>What</strong>: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!</p>
 <p><strong>A few people you’re likely to see</strong>:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="118" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 117;"><span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Hacky Hour"</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="86" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 85;"><span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Hacky Hour"</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-3" data-nodetype="expression">
 
@@ -362,17 +333,27 @@ background-size: cover;
 </section>
 <section id="resbaz-festival" class="level3">
 <h3 class="anchored" data-anchor-id="resbaz-festival">ResBaz Festival</h3>
-<div class="split-section">
-<div class="split-chunk">
-<div class="register-btn-wrapper">
-<p><a class="btn" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeivt4M7pgTZyYMwz_YMdyRAiAtHAJb_eyy2AsygolOiSxy-g/viewform">Register Here!</a></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>2026 Festival cancelled
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Unfortunately, due to a confluence of unforeseen constraints and scheduling conflicts, this year’s May festival has been cancelled.</p>
+</div>
+</div>
+<div class="split-section fade-out">
+<div class="split-chunk">
 <p><strong>Where</strong>: Tucson, Arizona</p>
-<p><strong>When</strong>: 14–15 May 2026</p>
+<p><strong>When</strong>: <del>14–15 May 2026</del></p>
 <p><strong>What</strong>: Learn, Network, Teach, Help, and Discuss are just a few of the availble things to do at ResBaz. Use the festival to add organizing events or presenting technical workshops to your resume, or simply attend and pick up a new data science trick, the choice is all yours!</p>
 <p><strong>A few people you’re likely to see</strong>:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="146" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 145;"><span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Festival 2026"</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="116" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 115;"><span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Festival 2026"</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-4" data-nodetype="expression">
 
